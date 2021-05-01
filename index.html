@@ -1,0 +1,1174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<title>Website menu 05</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+	<!-- <link rel="stylesheet" href="css/style.css"> -->
+	<link rel="stylesheet" href="./assets/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css'>
+	<link rel='stylesheet' href='https://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css'>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
+	<style>
+		.shadow-effect {
+			background: #fff;
+			padding: 20px;
+			border-radius: 0px;
+			text-align: center;
+			border: 1px solid #ECECEC;
+			box-shadow: 0 19px 38px rgb(0 0 0 / 10%), 0 15px 12px rgb(0 0 0 / 2%);
+			display: flex;
+			width: 300px;
+			height: 100px;
+		}
+
+		#testimonials-list .shadow-effect p {
+			font-family: inherit;
+			font-size: 17px;
+			line-height: 1.5;
+			margin: 0 0 17px 0;
+			font-weight: 300;
+			text-align: left;
+
+		}
+
+		.testimonial-name {
+			margin: -17px auto 0;
+			display: table;
+			width: auto;
+			background: #3190E7;
+			padding: 9px 35px;
+			border-radius: 12px;
+			text-align: center;
+			color: #fff;
+			box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
+		}
+
+		#testimonials-list .item {
+			text-align: center;
+			padding: 50px;
+			margin-bottom: 80px;
+			-webkit-transform: scale3d(0.8, 0.8, 1);
+			transform: scale3d(0.8, 0.8, 1);
+			transition: all 0.3s ease-in-out;
+		}
+
+		#testimonials-list .owl-item.active.center .item {
+			-webkit-transform: scale3d(1.0, 1.0, 1);
+			transform: scale3d(1.0, 1.0, 1);
+		}
+
+		.owl-carousel .owl-item img {
+			-webkit-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+			max-width: 70px;
+			border-radius: 11px;
+			margin: 0 auto 17px;
+			height: 65px;
+			display: flex;
+		}
+
+		#testimonials-list.owl-carousel .owl-dots .owl-dot.active span,
+		#testimonials-list.owl-carousel .owl-dots .owl-dot:hover span {
+			background: #ad1927;
+			-webkit-transform: translate3d(0px, -50%, 0px) scale(0.7);
+			transform: translate3d(0px, -50%, 0px) scale(0.7);
+		}
+
+		#testimonials-list.owl-carousel .owl-dots {
+			display: inline-block;
+			width: 100%;
+			text-align: center;
+		}
+
+		#testimonials-list.owl-carousel .owl-dots .owl-dot {
+			display: inline-block;
+		}
+
+		#testimonials-list.owl-carousel .owl-dots .owl-dot span {
+			background: #ad1927;
+			display: inline-block;
+			height: 20px;
+			margin: 0 2px 5px;
+			-webkit-transform: translate3d(0px, -50%, 0px) scale(0.3);
+			transform: translate3d(0px, -50%, 0px) scale(0.3);
+			-webkit-transform-origin: 50% 50% 0;
+			transform-origin: 50% 50% 0;
+			transition: all 250ms ease-out 0s;
+			width: 20px;
+		}
+
+		.item {
+			display: block;
+		}
+
+		body {
+			overflow-x: hidden;
+		}
+
+		.text-sec {
+			font-size: 13px;
+			color: #000;
+			text-align: left;
+			width: 100vh;
+			position: relative;
+			left: -80%;
+			padding-bottom: 20px;
+			visibility: hidden;
+			right: 0;
+			margin: 0 auto;
+			top: -66px;
+		}
+
+		.quote-sec {
+			margin: 0 !important;
+			width: 20px !important;
+			max-width: 30px !important;
+			position: relative;
+			top: 20px;
+		}
+
+		#testimonials-list .owl-item.active.center .item .shadow-effect {
+			background: rgba(0, 0, 0, 0.6);
+			color: #fff;
+			display: block;
+			position: relative;
+			top: -30px;
+
+		}
+
+		#testimonials-list .owl-item.active.center .item .shadow-effect img {
+			position: absolute;
+			top: -45px;
+			left: 27px;
+			right: 0;
+			margin: 0 auto;
+		}
+
+		#testimonials-list .owl-item.active.center .item .shadow-effect p {
+			text-align: center;
+			padding-top: 10px;
+		}
+
+		#testimonials-list .owl-item.active.center .text-sec {
+			visibility: visible;
+		}
+
+		.owl-carousel {
+			padding-top: 50px;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<header>
+		<nav class="row navbar navbar-expand-lg ftco_navbar ftco-navbar-light fixed-top" id="ftco-navbar">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html"><img src="./assets/images/logo.svg" alt="" width="180px"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+					aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="fa fa-bars"></span> Menu
+				</button>
+				<div class="collapse navbar-collapse" id="ftco-nav">
+					<ul class="navbar-nav ml-auto mr-md-3">
+						<li class="nav-item"><a href="./index.html" class="nav-link"><span
+									class="active">HOME</span></a></li>
+						<li class="nav-item "><a href="./product.html" class="nav-link"><span>PRODUCT</span></a></li>
+						<li class="nav-item "><a href="./services.html" class="nav-link"><span>SERVICES</span></a></li>
+						<li class="nav-item dropdown nav-item d-md-flex align-items-center"><a href="#"
+								class="nav-link d-flex align-items-center justify-content-center icon-cart p-0"
+								id="dropdown04" aria-expanded="false"><span>RESOURCES</span><img
+									src="./assets/images/drop-down-icon.svg" alt=""></a>
+
+							<div class="dropdown-menu dropdown-menu-nav dropdown-menu-right"
+								aria-labelledby="dropdown04">
+								<a href="./faq.html" class="dropdown-item"><span><img src="./assets/images/faq-icon.svg"
+											alt="" class="mr-2">FAQ’s</span></a>
+								<a href="./forums.html" class="dropdown-item"><span><img
+											src="./assets/images/forums-icon.svg" alt="" class="mr-2">Forums &
+										Discussions</span></a>
+								<a href="./blogs.html" class="dropdown-item"><span><img
+											src="./assets/images/blogs-icon.svg" alt="" class="mr-2">Blogs</span></a>
+							</div>
+						</li>
+						<li class="nav-item"><a href="#" class="nav-link contact-btn">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- END nav -->
+
+		<div class="header-background">
+			<div class="row header-background-content">
+				<div class="container">
+					<div class="col-md-8">
+						<div class="row">
+							<div class="col-md-12">
+								<h3>We accelerate business growth</h3>
+								<h2>Embrace agility with one stop
+									automation solution today</h2>
+								<div class="row">
+									<div class="col-md-10 p-0">
+										<p>If your testing processes are covering your current needs, that’s good-but
+											not good enough.
+											We can help you create innovative, adaptive processes built for evolving
+											technologies and
+											emerging challenges.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="row pt-3">
+							<div class="col-md-4 my-2">
+								<div class="white-btn text-center">
+									<span>Request a Demo</span>
+								</div>
+							</div>
+							<div class="col-md-4 my-2">
+								<div class="red-btn text-center">
+									<span>Free Trial</span>
+								</div>
+
+							</div>
+							<div class="col-md-4"></div>
+						</div>
+					</div>
+					<div class="col-md-3"></div>
+					<div class="tag-line-footer mt-5 py-3">
+						<div class="row">
+							<div class="col-10 row">
+								<div class="col-md-4 my-2">
+									<div class="tag-line p-3">
+										<img src="./assets/images/agile.svg" alt="">
+										<h4 class="mt-2">AGILE</h4>
+										<p class="mt-2">Conducting multiple, iterative tests helps you find more of what
+											consumers like and don’t like.</p>
+									</div>
+								</div>
+								<div class="col-md-4 my-2">
+									<div class="tag-line p-3">
+										<img src="./assets/images/automate.svg" alt="">
+										<h4 class="mt-2">Automate</h4>
+										<p class="mt-2">Experienced test automation services to help you accelerate your
+											product releases.</p>
+									</div>
+								</div>
+								<div class="col-md-4 my-2 ">
+									<div class="tag-line p-3">
+										<img src="./assets/images/accelarate.svg" alt="">
+										<h4 class="mt-2">Accelerate</h4>
+										<p class="mt-2">An effort to uncover faults and potential modes of failures in a
+											short amount of time.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="sticky-social">
+		<ul class="list-unstyled text-center">
+			<li><a href="#"><img src="./assets/images/social-phone.svg" alt=""></a></li>
+			<li><a href="#"><img src="./assets/images/social-mail.svg" alt=""></a></li>
+			<li><a href="#"><img src="./assets/images/follow-us.svg" alt=""></a></li>
+			<li><a href="#"><img src="./assets/images/social-facebook.svg" alt=""></a></li>
+			<li><a href="#"><img src="./assets/images/social-twitter.svg" alt=""></a></li>
+			<li><a href="#"><img src="./assets/images/social-linkedin.svg" alt=""></a></li>
+			<li><a href="#"><img src="./assets/images/socila-youtube.svg" alt=""></a></li>
+			<li><a href="#"><img src="./assets/images/social-instagram.svg" alt=""></a></li>
+		</ul>
+	</div>
+
+	<section class="simplify-one">
+		<div class="container-left">
+			<div class="simplify-one-head">
+				<img src="./assets/images/heading-logo.svg" alt="">
+			</div>
+			<div class="row simplify-one-body">
+				<div class="col-md-7 p-0 text-justify m-auto">
+					<div class="simplify-one-body-content ">
+						<p class="m-0">Simplify3X makes a significant difference in the way software test engineering is
+							practiced by addressing THREE key attributes in Software Test Engineering
+							People, Process, and Technology.</p>
+						<p class="m-0">Simplifying and optimizing every opportunity we see through our platform
+							SimplifyQA we help our customers to achieve the agility, acceleration and test automation
+							required in current business dynamics with a one-stop test automation solution for Web Apps,
+							Mobile apps, Mainframe, API and DB testing.</p>
+						<p class="m-0">SimplifyQA evolved as a solution for clients who are finding an automation
+							solution that is affordable, comprehensive, easy to set up, and simple to use. For its
+							excellence in testing solutions, SimplifyQA was recognized as the Top 10 Software Testing
+							Solution Provider by APAC CIO Outlook.</p>
+
+					</div>
+				</div>
+				<div class="col-md-4 mx-auto">
+					<div class="simplify-one-img">
+						<div class="simplify-one-one">
+							<img src="./assets/images/img-1.svg" alt="" width="100%">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Simplify3x end -->
+
+	<!-- Features start-->
+	<section class="features">
+		<div class="container-left container-right">
+			<div class="features-heading">
+				<h5 class="heading-black-underline">Features</h5>
+			</div>
+
+			<div class="features-card">
+				<div class="bd">
+					<div id="carouselFeature" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselFeature" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselFeature" data-slide-to="1"></li>
+							<li data-target="#carouselFeature" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="row d-flex justify-content-between">
+									<div class="col-md-6 ">
+										<div class="features-card-img p-2">
+											<img src="./assets/images/Features-2.png" alt="" width="100%">
+										</div>
+									</div>
+									<div class="col-md-6 ">
+										<div class="features-card-content ">
+											<h4>Develop Test Case Once</h4>
+											<p>Test cases created once can be used for both manual and automated test
+												execution. Automated
+												test execution requires a test data population for all parameters
+												involved in that testcase.</p>
+											<div class="row">
+												<div class="col-md-6 p-0 mt-4">
+													<div class="red-btn text-center ">
+														<span><a href="./features.html">Read More</a></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row d-flex justify-content-between">
+									<div class="col-md-6">
+										<div class="features-card-img p-2">
+											<img src="./assets/images/Features-3.png" alt="" width="100%"
+												style="margin-bottom: 14px;">
+										</div>
+									</div>
+									<div class="col-md-6 ">
+										<div class="features-card-content">
+											<h4>Requirement Traceability Matrix</h4>
+											<p>There is no knowledge of scripting language required for one to write
+												automated testcase in this platform. All they need to know is the
+												feature of product and how to use it. Anyone in project team can
+												automate testcase using this platform</p>
+											<div class="row">
+												<div class="col-md-6 p-0 mt-4">
+													<div class="red-btn text-center ">
+														<span><a href="./features.html">Read More</a></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row d-flex justify-content-between">
+									<div class="col-md-6">
+										<div class="features-card-img p-2">
+											<img src="./assets/images/Features-2.png" alt="" width="100%">
+										</div>
+									</div>
+									<div class="col-md-6 ">
+										<div class="features-card-content ">
+											<h4>Change Impact Analysis</h4>
+											<p>New requirement implementations or change requests may impact existing
+												user stories and test
+												cases may require maintenance.This feature helps in analyzing the
+												possible outcome,effort
+												and the task required to implement the changes.</p>
+											<div class="row">
+												<div class="col-md-6 p-0 mt-4">
+													<div class="red-btn text-center ">
+														<span><a href="./features.html">Read More</a></span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Features Ends-->
+
+	<section class="pricing">
+		<div class="container-left container-right">
+			<div class="row">
+				<div class="col-md-8">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="pricing-card">
+								<div class="pricing-card-head">
+									<h4>Mainframe</h4>
+								</div>
+								<div class="pricing-card-body">
+									<div class="pricing-card-body-cont">
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports both manual and automated execution.</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Autocreate Manual Testcase.</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>HTML pdf reports with time stamp.</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports sequential and manual execution.</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Creation of useable Functions</p>
+											</div>
+										</div>
+										<div class="sub-head">
+											<h5>API</h5>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Rest and API calls.</p>
+											</div>
+										</div>
+										<div class="sub-head">
+											<h5>DB</h5>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Oracle SQL,My SQL, Sybase,
+													Mongod DB, Posgre, SQL server</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Oracle SQL,My SQL, Sybase,
+													Mongod DB, Posgre, SQL server</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Oracle SQL,My SQL, Sybase,
+													Mongod DB, Posgre, SQL server</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="pricing-card-footer">
+									<div class="red-btn text-center m-auto " style="width: 60%;">
+										<span>Choose plan <img src="./assets/images/right-arrow.svg" alt=""
+												class="ml-2"> </span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="pricing-card">
+								<div class="pricing-card-head">
+									<h4>Mainframe</h4>
+								</div>
+								<div class="pricing-card-body">
+									<div class="pricing-card-body-cont">
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports both manual and automated execution.</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Autocreate Manual Testcase.</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>HTML pdf reports with time stamp.</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports sequential and manual execution.</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Creation of useable Functions</p>
+											</div>
+										</div>
+										<div class="sub-head">
+											<h5>API</h5>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Rest and API calls.</p>
+											</div>
+										</div>
+										<div class="sub-head">
+											<h5>DB</h5>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Oracle SQL,My SQL, Sybase,
+													Mongod DB, Posgre, SQL server</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Oracle SQL,My SQL, Sybase,
+													Mongod DB, Posgre, SQL server</p>
+											</div>
+										</div>
+										<div class="d-flex">
+											<div>
+												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
+											</div>
+											<div>
+												<p>Supports Oracle SQL,My SQL, Sybase,
+													Mongod DB, Posgre, SQL server</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="pricing-card-footer">
+									<div class="red-btn text-center m-auto " style="width: 60%;">
+										<span class="mr-3">Choose plan <img src="./assets/images/right-arrow.svg" alt=""
+												class="ml-2"> </span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+				<div class="col-md-3 my-auto  ">
+					<div class="features-heading text-center">
+						<h5 class="heading-white-underline m-auto">Pricing</h5>
+						<p class="text-white">Choose your Plan wisely</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		</div>
+
+		</div>
+
+	</section>
+
+
+	<section class="our-videos">
+		<div class="container-left">
+
+			<div class="row py-2">
+				<div class="col-md-6 m-auto">
+					<div class="features-heading">
+						<h5 class="heading-white-underline">Our Videos in Action</h5>
+					</div>
+					<p class="m-0 text-white text-justify mt-5">SimplifyQA is Testing platform that accelerates testing
+						to keep pace with
+						Agile and DevOps. With the industry’s most innovative functional testing technologies,
+						SimplifyQA breaks through the barriers of conventional software testing tools.
+					</p>
+					<div class="row pt-3 mt-5">
+						<div class="col-md-5 my-2 p-0">
+							<div class="red-btn text-center m-auto ">
+								<span>Click for more <img src="./assets/images/right-arrow.svg" alt=""> </span>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="our-img">
+						<img src="./assets/images/our-videos-2.svg" alt="" width="100%">
+						<div class="our-img-text">
+							<p>Click Here <br>
+								To <br>
+								Explore</p>
+						</div>
+						<div class="play-btn">
+							<img src="./assets/images/play-btn.svg" alt="">
+						</div>
+					</div>
+					<div class="our-img-content">
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<section class="our-customers  mt-5">
+		<div class="features-heading container-left container-right">
+			<h5 class="heading-black-underline ">Our Customers</h5>
+		</div>
+		<div id="ourCustomercarousel" class="carousel slide mt-5" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#ourCustomercarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#ourCustomercarousel" data-slide-to="1"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row d-flex justify-content-center mt-4">
+						<div class="col-2">
+							<img src="./assets/images/pro-1.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-2.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-3.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-4.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-5.svg" alt="" width="100%">
+						</div>
+					</div>
+					<div class="row d-flex justify-content-center my-4">
+						<div class="col-2">
+							<img src="./assets/images/pro-6.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-7.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-8.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-9.svg" alt="" width="100%">
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row d-flex justify-content-center mt-4">
+						<div class="col-2">
+							<img src="./assets/images/pro-10.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-11.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-12.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-13.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-14.svg" alt="" width="100%">
+						</div>
+					</div>
+					<div class="row d-flex justify-content-center my-4">
+						<div class="col-2">
+							<img src="./assets/images/pro-15.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-16.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-17.svg" alt="" width="100%">
+						</div>
+						<div class="col-2">
+							<img src="./assets/images/pro-18.svg" alt="" width="100%">
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#ourCustomercarousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#ourCustomercarousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</section>
+
+	<!-- <section class="testi mt-5">
+		<div class="">
+			<div class="features-heading container-left container-right">
+				<h5 class="heading-black-underline ">Testimonials</h5>
+			</div>
+			<div class="row mt-5">
+				<div class="col-md-12">
+
+					<div id="testimonial-slider" class="owl-carousel container">
+						<div class="testimonial">
+
+							<p class="description">
+								<img src="./assets/images/invert-open.svg" alt="" class="float-left mb-2"><br>
+								SimplifyQA has provided us with great agility and quality in terms of our day to day
+								automation testing and exponentially increasing our productivity thus enhancing our time
+								to market.
+								<br><img src="./assets/images/invert-close.svg" alt="" class="float-right">
+							</p>
+
+
+							<div class="testimonial-review">
+								<div class="pic">
+									<img src="./assets/images/testi-1.jpg" alt="">
+								</div>
+								<h4 class="testimonial-title">
+									williamson
+									<small>Web Developer</small>
+								</h4>
+							</div>
+						</div>
+
+						<div class="testimonial">
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec velit dui. Pellentesque
+								volutpat faucibus risus, ac accumsan purus.
+							</p>
+
+							<div class="testimonial-review">
+								<div class="pic">
+									<img src="images/img-2.jpg" alt="">
+								</div>
+								<h4 class="testimonial-title">
+									kristiana
+									<small>Web Desginer</small>
+								</h4>
+							</div>
+						</div>
+						<div class="testimonial">
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec velit dui. Pellentesque
+								volutpat faucibus risus, ac accumsan purus.
+							</p>
+
+							<div class="testimonial-review">
+								<div class="pic">
+									<img src="images/img-2.jpg" alt="">
+								</div>
+								<h4 class="testimonial-title">
+									kristiana
+									<small>Web Desginer</small>
+								</h4>
+							</div>
+						</div>
+						<div class="testimonial">
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec velit dui. Pellentesque
+								volutpat faucibus risus, ac accumsan purus.
+							</p>
+
+							<div class="testimonial-review">
+								<div class="pic">
+									<img src="images/img-2.jpg" alt="">
+								</div>
+								<h4 class="testimonial-title">
+									kristiana
+									<small>Web Desginer</small>
+								</h4>
+							</div>
+						</div>
+						<div class="testimonial">
+							<p class="description">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec velit dui. Pellentesque
+								volutpat faucibus risus, ac accumsan purus.
+							</p>
+
+							<div class="testimonial-review">
+								<div class="pic">
+									<img src="images/img-2.jpg" alt="">
+								</div>
+								<h4 class="testimonial-title">
+									kristiana
+									<small>Web Desginer</small>
+								</h4>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section> -->
+
+
+	<section class="testimonials mt-5">
+		<div class="features-heading container-left container-right">
+			<h5 class="heading-black-underline ">Testimonials</h5>
+		</div>
+		<div class="wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div id="testimonials-list" class="owl-carousel">
+
+							<div class="item">
+								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
+									SimplifyQA has provided us with great agility and quality in terms of our day to day
+									automation testing and exponentially increasing our productivity thus enhancing our
+									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
+							right: 110px;
+							position: absolute;
+							top: 85px;"></p>
+								<div class="shadow-effect">
+									<img class="imgPlaceholder"
+										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+									<p><strong>shray</strong><br>CTO, Peopleworks</p>
+
+
+								</div>
+
+							</div>
+
+							<div class="item">
+								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
+									SimplifyQA has provided us with great agility and quality in terms of our day to day
+									automation testing and exponentially increasing our productivity thus enhancing our
+									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
+							right: 110px;
+							position: absolute;
+							top: 85px;"></p>
+								<div class="shadow-effect">
+									<img class="imgPlaceholder"
+										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+									<p><strong>nived</strong><br>CTO, Peopleworks</p>
+
+
+								</div>
+
+							</div>
+
+
+							<div class="item">
+								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
+									SimplifyQA has provided us with great agility and quality in terms of our day to day
+									automation testing and exponentially increasing our productivity thus enhancing our
+									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
+							right: 110px;
+							position: absolute;
+							top: 85px;"></p>
+								<div class="shadow-effect">
+									<img class="imgPlaceholder"
+										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+									<p><strong>Krishna</strong><br>CTO, Peopleworks</p>
+
+
+								</div>
+
+							</div>
+
+							<div class="item">
+								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
+									SimplifyQA has provided us with great agility and quality in terms of our day to day
+									automation testing and exponentially increasing our productivity thus enhancing our
+									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
+							right: 110px;
+							position: absolute;
+							top: 85px;"></p>
+								<div class="shadow-effect">
+									<img class="imgPlaceholder"
+										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+									<p><strong>yasmin</strong><br>CTO, Peopleworks</p>
+
+
+								</div>
+
+							</div>
+
+							<div class="item">
+								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
+									SimplifyQA has provided us with great agility and quality in terms of our day to day
+									automation testing and exponentially increasing our productivity thus enhancing our
+									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
+							right: 110px;
+							position: absolute;
+							top: 85px;"></p>
+								<div class="shadow-effect">
+									<img class="imgPlaceholder"
+										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
+									<p><strong>murli</strong><br>CTO, Peopleworks</p>
+
+
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contact">
+				<div class="contact-form container-left container-right">
+					<div class="row m-auto" style="width: 80%;">
+						<div class="col-5 p-0 m-auto">
+							<div class="contact-tittle p-3">
+								<div class="features-heading contact-tittle-cont text-center">
+									<h5 class="heading-white-underline m-auto">Contact Us</h5>
+									<p class="text-white mt-2">Please fill the form to know more information on our
+										products and
+										services. We are there always there to assist you.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-7 p-0">
+							<div class="contact-details ">
+								<div class="contact-details-cont">
+									<input type="text" class="form-control" placeholder="Name">
+									<input type="email" class="form-control" placeholder="Email">
+									<label for="">Message</label>
+									<textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+									<div class="mt-4 pt-2">
+										<div class="red-btn text-center m-auto " style="width: 40%;">
+											<span>Submit query</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="loaction-one">
+					<img src="./assets/images/location-pointer.svg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Footer starts -->
+	<footer>
+		<div class="">
+			<div class="row">
+				<div class="col-md-4 m-auto">
+					<img src="./assets/images/simplify-footer-img.svg" alt="">
+				</div>
+				<div class="col-md-5 col-sm-6">
+					<div class="row">
+						<div class="col-md-4 p-0 ">
+							<ul class="footer-menu">
+								<li><a href="">Home</a></li>
+								<li><a href="">Products</a></li>
+								<li><a href="">Pricing</a></li>
+							</ul>
+						</div>
+						<div class="col-md-5 p-0">
+							<ul class="footer-menu">
+								<li><a href="">About Us</a></li>
+								<li><a href="">Privacy Policy</a></li>
+								<li><a href="">Terms & Services</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 p-0 ">
+							<ul class="footer-menu">
+								<li><a href="">Help Centre</a></li>
+								<li><a href="">Get Started</a></li>
+								<li><a href="">Contact Us</a></li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-md-3 ">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="red-btn text-center ">
+								<span>Free Trial</span>
+							</div>
+							<ul class="social-media-icons d-flex justify-content-between list-unstyled">
+								<li><a href=""><img src="./assets/images/fb-icon.svg" alt=""></a></li>
+								<li><a href=""><img src="./assets/images/twitter-icon.svg" alt=""></a></li>
+								<li><a href=""><img src="./assets/images/linkedin-icon.svg" alt=""></a></li>
+								<li><a href=""><img src="./assets/images/youtube-icon.svg" alt=""></a></li>
+								<li><a href=""><img src="./assets/images/insta-icon.svg" alt=""></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+
+				</div>
+				<div class=" col-md-5">
+					<p>Join here, To get Advanced Fleet Telematics Solutions For Every Business</p>
+					<p>2019 Simplify3X. All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
+	<script src="function.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			"use strict";
+			$('#testimonials-list').owlCarousel({
+				loop: true,
+				center: true,
+				items: 3,
+				margin: 0,
+				autoplay: true,
+				dots: true,
+				autoplayTimeout: 8500,
+				smartSpeed: 450,
+				responsive: {
+					0: {
+						items: 1
+					},
+					768: {
+						items: 2
+					},
+					1170: {
+						items: 3
+					}
+				}
+			});
+		});
+	</script>
+
+
+
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/popper.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/main.js"></script>
+	<script src="./script.js"></script>
+
+	</script>
+
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>crowsel</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body{
+	background: #eee;
+}
+.section-padding{
+	width:1170px;
+	margin: 0 auto;
+	padding:80px 0;
+}
+
+.owl-item .item {
+   transform: translate3d(0, 0, 0); 
+transform: scale(0.9);
+
+ transition: all .25s ease-in-out; 
+  margin: 50px 0; 
+ }
+
+.screenshot_slider .owl-item .item img {
+    -webkit-transition: 0.3s;
+    -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    transform: scale(0.80);
+}
+
+.screenshot_slider .owl-item.center .item img {
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.screenshot_slider .owl-nav {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.screenshot_slider .owl-nav button {
+	font-size: 24px !important;
+	margin: 10px;
+	color: #033aff !important;
+}
+    </style>
+    </head>
+    <body>
+        <div class="section-padding">
+            <div class="screenshot_slider owl-carousel">
+                <div class="item">
+                    <img src="https://i.ibb.co/dJRvSK1/screen1.jpg" alt="" title="">
+                </div>
+                <div class="item">
+                    <img src="https://i.ibb.co/7nVfZR8/screen2.jpg" alt="" title="">
+                </div>
+                <div class="item">
+                    <img src="https://i.ibb.co/j8wmkDQ/screen3.jpg" alt="" title="">
+                </div>
+                <div class="item">
+                    <img src="https://i.ibb.co/nDQ581F/screen4.jpg" alt="" title="">
+                </div>
+                <div class="item">
+                    <img src="https://i.ibb.co/FYG4Wz9/screen5.jpg" alt="" title="">
+                </div>
+                <div class="item">
+                    <img src="https://i.ibb.co/GT4Gh1W/screen6.jpg" alt="" title="">
+                </div>
+                <div class="item">
+                    <img src="https://i.ibb.co/xqkdFXW/screen7.jpg" alt="" title="">
+                </div>
+                <div class="item">
+                    <img src="https://i.ibb.co/7nVfZR8/screen2.jpg" alt="" title="">
+                </div>
+           </div>
+       </div>
+       
+    </body>
+    <script>
+        var owl = $('.screenshot_slider').owlCarousel({
+    loop: true,
+    responsiveClass: true,
+    nav: true,
+    margin: 0,    
+    autoplayTimeout: 4000,
+    smartSpeed: 400,
+    center: true,
+    navText: ['&#8592;', '&#8594;'],
+    responsive: {
+        0: {
+            items: 1,
+        },
+        600: {
+            items: 5
+        },
+        1200: {
+            items: 5
+        }
+    }
+});
+
+/****************************/
+
+jQuery(document.documentElement).keydown(function (event) {    
+
+    // var owl = jQuery("#carousel");
+
+    // handle cursor keys
+    if (event.keyCode == 37) {
+       // go left
+      owl.trigger('prev.owl.carousel', [400]);
+      //owl.trigger('owl.prev');
+    } else if (event.keyCode == 39) {
+       // go right
+        owl.trigger('next.owl.carousel', [400]);
+       //owl.trigger('owl.next');
+    }
+
+});
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</html>
