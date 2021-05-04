@@ -301,7 +301,7 @@ a:hover {
   height: 2px;
   width: 100%;
   background: #AD1927;
-  top: 100%;
+  top: 110%;
   left: 0;
 }
 
@@ -322,22 +322,23 @@ a:hover {
   height: 2px;
   width: 100%;
   background: #AD1927;
-  top: 100%;
+  top: 110%;
   left: 0;
 }
 
 /* Features Card start */
 
 .features-card {
-  background: #FFFFFF;
   border: 1px solid rgba(173, 25, 39, 0.22);
   box-sizing: border-box;
   box-shadow: 0px 0px 10px rgba(173, 25, 39, 0.24);
   position: relative;
-  padding: 30px 50px;
   margin-bottom: 55px;
+}
+.features-card .features-card-second{
+  padding: 30px 50px;
+  
   min-height: fit-content;
-  position: relative;
 }
 
 .features-card::before {
@@ -353,6 +354,7 @@ a:hover {
   left: 0;
   bottom: 0;
   height: 35%;
+  z-index: 5;
 }
 
 .features-card::after {
@@ -371,7 +373,7 @@ a:hover {
 }
 
 .features-card .features-card-content {
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .features-card .features-card-content h4 {
@@ -1109,7 +1111,7 @@ a:hover {
 
 
 /* feature page css start */
-.feature-page .feature-page-left {
+/* .feature-page .feature-page-left {
   background: url(./assets/images/left-feat-bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -1120,7 +1122,7 @@ a:hover {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right
-}
+} */
 
 .feature-page-card {
   background: #FFFFFF;
