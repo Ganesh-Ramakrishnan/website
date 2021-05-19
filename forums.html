@@ -25,16 +25,16 @@
                 <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.svg" alt="" width="180px"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
                     aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa fa-bars"></span> Menu
+                    <span class="fa fa-bars"><img src="./assets/images/hand-bur.svg" alt=""></span>
                 </button>
                 <div class="collapse navbar-collapse" id="ftco-nav">
                     <ul class="navbar-nav ml-auto mr-md-3">
-                        <li class="nav-item"><a href="./index.html" class="nav-link"><span>HOME</span></a></li>
-                        <li class="nav-item "><a href="./product.html" class="nav-link"><span>PRODUCT</span></a></li>
-                        <li class="nav-item "><a href="./services.html" class="nav-link"><span>SERVICES</span></a></li>
+                        <li class="nav-item"><a href="./index.html" class="nav-link"><span>Home</span></a></li>
+                        <li class="nav-item "><a href="./product.html" class="nav-link"><span>Product</span></a></li>
+                        <li class="nav-item "><a href="./services.html" class="nav-link"><span>Services</span></a></li>
                         <li class="nav-item dropdown nav-item d-md-flex align-items-center"><a href="#"
                                 class="nav-link d-flex align-items-center justify-content-center icon-cart p-0"
-                                id="dropdown04" aria-expanded="false"><span>RESOURCES</span><img
+                                id="dropdown04" aria-expanded="false"><span>Resources</span><img
                                     src="./assets/images/drop-down-icon.svg" alt=""></a>
 
                             <div class="dropdown-menu dropdown-menu-nav dropdown-menu-right"
@@ -91,35 +91,35 @@
                         </div>
                     </div>
                     <div class="tag-line-footer mt-5 py-3">
-						<div class="row">
-							<div class="col-10 row">
-								<div class="col-md-4 my-2">
-									<div class="tag-line p-3">
-										<img src="./assets/images/agile.svg" alt="">
-										<h4 class="mt-2">AGILE</h4>
-										<p class="mt-2">Conducting multiple, iterative tests helps you find more of what
-											consumers like and don’t like.</p>
-									</div>
-								</div>
-								<div class="col-md-4 my-2">
-									<div class="tag-line p-3">
-										<img src="./assets/images/automate.svg" alt="">
-										<h4 class="mt-2">Automate</h4>
-										<p class="mt-2">Experienced test automation services to help you accelerate your
-											product releases.</p>
-									</div>
-								</div>
-								<div class="col-md-4 my-2 ">
-									<div class="tag-line p-3">
-										<img src="./assets/images/accelarate.svg" alt="">
-										<h4 class="mt-2">Accelerate</h4>
-										<p class="mt-2">An effort to uncover faults and potential modes of failures in a
-											short amount of time.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+                        <div class="row">
+                            <div class="col-10 row">
+                                <div class="col-md-4 my-2">
+                                    <div class="tag-line p-3">
+                                        <img src="./assets/images/agile.svg" alt="">
+                                        <h4 class="mt-2">AGILE</h4>
+                                        <p class="mt-2">Conducting multiple, iterative tests helps you find more of what
+                                            consumers like and don’t like.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 my-2">
+                                    <div class="tag-line p-3">
+                                        <img src="./assets/images/automate.svg" alt="">
+                                        <h4 class="mt-2">Automate</h4>
+                                        <p class="mt-2">Experienced test automation services to help you accelerate your
+                                            product releases.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 my-2 ">
+                                    <div class="tag-line p-3">
+                                        <img src="./assets/images/accelarate.svg" alt="">
+                                        <h4 class="mt-2">Accelerate</h4>
+                                        <p class="mt-2">An effort to uncover faults and potential modes of failures in a
+                                            short amount of time.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -138,236 +138,545 @@
         </ul>
     </div>
 
-    <section class="mt-5 faq-section">
+
+
+    <section class="my-5 faq-section">
         <div class="container-left container-right">
-            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active mr-4" id="home-tab" data-toggle="tab" href="#general" role="tab"
-                        aria-controls="" aria-selected="true">Recent Threads</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link mx-4" id="licensing-tab" data-toggle="tab" href="#licensing" role="tab"
-                        aria-controls="licensing" aria-selected="false">Unanswered Questions</a>
-                </li>
-            </ul>
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <div class="forums-heading">
+                        <h5 class="m-0">Recent Threads</h5>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12 text-right form-write-main">
+                    <span class="forums-write" data-toggle="modal" data-target="#forumWrite"><img
+                            src="./assets/images/write-forums.svg" alt=""><span>Write a forum</span></span>
+                    <!-- modal -->
+                    <div class="modal fade" id="forumWrite" tabindex="-1" role="dialog"
+                        aria-labelledby="forumWriteLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="forumWriteLabel">Discuss here</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <img src="./assets/images/close-svg.svg" alt="" width="70%">
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <textarea name="" id="" cols="30" rows="10" class="form-control attachments-box"
+                                        placeholder="Write here..."></textarea>
+                                    <div class="attachments">
+                                        <ul class="list-inline m-0">
+                                            <li class="list-inline-item"><img src="./assets/images/attacgment-forum.svg"
+                                                    alt=""></li>
+                                            <li class="list-inline-item"><img
+                                                    src="./assets/images/left-align-justify.svg" alt=""></li>
+                                            <li class="list-inline-item"><img
+                                                    src="./assets/images/forums-center-align.svg" alt=""></li>
+                                            <li class="list-inline-item"><img src="./assets/images/forums-justify.svg"
+                                                    alt=""></li>
+                                            <li class="list-inline-item"><img
+                                                    src="./assets/images/forums-right-align.svg" alt=""></li>
+                                            <li class="list-inline-item"><img src="./assets/images/forums-emonji.svg"
+                                                    alt=""></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="footer text-center my-4">
+                                    <a href="" class="submit">Upload</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="forums-write"><img src="./assets/images/most-popular.svg" alt=""><select name="" id="">
+                            <option value="">Most commented</option>
+                            <option value="">Most Liked</option>
+                        </select></span>
+
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-md-6">
+                    <form class="example" action="/action_page.php">
+                        <input type="text" placeholder="Search by keyword" name="search">
+                        <button type="submit"><img src="./assets/images/search-icons.svg" alt="" width="60%"></button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="tab-content pt-4" id="myTabContent">
-            <div class="tab-pane fade show active" id="general" role="tabpanel" aria-labelledby="general-tab">
-
-                <div class="row">
-                    <div class="col-md-12 p-0">
-                        <div class="forums-card-one">
-                            <div class="container-left container-right">
 
 
-                                <div class="forums-profile d-flex">
-                                    <div>
-                                        <img src="./assets/images/profile-img.svg" alt="">
-                                    </div>
-                                    <div class="ml-3 mt-2">
-                                        <p class="profile-name m-0">Dummy Name</p>
-                                        <span class="date">4 days ago</span>
-                                    </div>
+        <div>
+            <div class="row">
+                <div class="col-md-12 p-0">
+                    <div class="forums-card-one">
+                        <div class="container-left container-right">
+
+
+                            <div class="forums-profile d-flex">
+                                <div>
+                                    <img src="./assets/images/profile-img.svg" alt="">
                                 </div>
-                                <div class="forums-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis pulvinar lacus
-                                        amet urna tincidunt in ante quis augue. Vulputate volutpat, consectetur iaculis
-                                        pulvinar egestas duis egestas ipsum. Eget tincidunt viverra viverra eget
-                                        facilisis fames. Viverra vitae, aenean egestas et massa mauris. Risus commodo
-                                        interdum dui, massa ut. Accumsan blandit tortor placerat lobortis tortor aliquam
-                                        donec. Scelerisque amet nulla at id. Mattis sit massa sed pellentesque quis
-                                        etiam quis et justo. Risus, congue nec porta pulvinar. </p>
+                                <div class="ml-3 mt-2">
+                                    <p class="profile-name m-0">Dummy Name</p>
+                                    <span class="date">4 days ago</span>
                                 </div>
-                                <div class="forums-footer">
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <ul class="list-unstyled list-inline">
-                                                <li class="list-inline-item">
-                                                    <span><img src="./assets/images/likes.svg" alt=""></span> <span
-                                                        class="social">likes</span>
-                                                    <p>125 likes</p>
-                                                </li>
-                                                <li class="list-inline-item mx-5">
-                                                    <span><img src="./assets/images/comments.svg" alt=""></span> <span
-                                                        class="social" data-toggle="modal"
-                                                        data-target="#comment-modal">comments</span>
-                                                    <p>50 comments</p>
+                            </div>
+                            <div class="forums-body">
 
-                                                    <!-- Modal -->
-                                                    <div class="modal comments-modal fade" id="comment-modal"
-                                                        tabindex="-1" role="dialog" aria-labelledby="comment-modalTitle"
-                                                        aria-hidden="true">
-                                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header px-4">
-                                                                    <h5 class="modal-title" id="comment-modalTitle">
-                                                                    </h5>
-                                                                    Comments</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body px-4">
-                                                                    <div class="comment-details d-flex mt-3">
-                                                                        <div class="profile-img">
-                                                                            <img src="./assets/images/comments-img-profile.svg"
-                                                                                alt="">
-                                                                        </div>
-                                                                        <div class="profile-details mt-3 ml-2">
-                                                                            <span class="profile-details-name">Angelina
-                                                                                Maddy</span> <span
-                                                                                class="profile-details-date">21 January
-                                                                                2021</span>
-                                                                            <div class="profile-detail-body mt-4">
-                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit. Nascetur vel quis sed
-                                                                                diam fusce pulvinar ultrices. Quis
-                                                                                elementum venenatis sed ut eget nunc,
-                                                                                tincidunt purus, neque. Massa malesuada
-                                                                                in dui et. Neque, urna est massa purus.
-                                                                                Aliquet lobortis hendrerit nisl, sed in
-                                                                                imperdiet vulputate enim in. Augue
-                                                                                ornare phasellus viverra facilisi
-                                                                                curabitur aliquam tempus tincidunt cras.
-                                                                                In urna risus scelerisque elementum
-                                                                                lacus amet elit, tortor eget. Malesuada
-                                                                                commodo bibendum amet volutpat. Enim
-                                                                                donec a, ut felis cras lacus.
-                                                                                Condimentum nec iaculis nullam mattis.
-                                                                                Mauris sed viverra vestibulum
-                                                                                pellentesque rhoncus et. Massa etiam
-                                                                                mauris, tristique leo laoreet sed
-                                                                                pulvinar dictum. Leo at dictum
-                                                                                pellentesque lacus quis eget porttitor
-                                                                                tincidunt.
-                                                                            </div>
-                                                                            <div class="profile-detail-footer mt-3">
-                                                                                <ul class="list-unstyled list-inline">
-                                                                                    <li class="list-inline-item">
-                                                                                        <span>125 likes</span>
-                                                                                    </li>
-                                                                                    <li class="list-inline-item mx-5">
-                                                                                        <span class="text-black">50
-                                                                                            comments</span>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="comment-details d-flex mt-3">
-                                                                        <div class="profile-img">
-                                                                            <img src="./assets/images/comments-img-profile.svg"
-                                                                                alt="">
-                                                                        </div>
-                                                                        <div class="profile-details mt-3 ml-2">
-                                                                            <span class="profile-details-name">Angelina
-                                                                                Maddy</span> <span
-                                                                                class="profile-details-date">21 January
-                                                                                2021</span>
-                                                                            <div class="profile-detail-body mt-4">
-                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit. Nascetur vel quis sed
-                                                                                diam fusce pulvinar ultrices. Quis
-                                                                                elementum venenatis sed ut eget nunc,
-                                                                                tincidunt purus, neque. Massa malesuada
-                                                                                in dui et. Neque, urna est massa purus.
-                                                                                Aliquet lobortis hendrerit nisl, sed in
-                                                                                imperdiet vulputate enim in. Augue
-                                                                                ornare phasellus viverra facilisi
-                                                                                curabitur aliquam tempus tincidunt cras.
-                                                                                In urna risus scelerisque elementum
-                                                                                lacus amet elit, tortor eget. Malesuada
-                                                                                commodo bibendum amet volutpat. Enim
-                                                                                donec a, ut felis cras lacus.
-                                                                                Condimentum nec iaculis nullam mattis.
-                                                                                Mauris sed viverra vestibulum
-                                                                                pellentesque rhoncus et. Massa etiam
-                                                                                mauris, tristique leo laoreet sed
-                                                                                pulvinar dictum. Leo at dictum
-                                                                                pellentesque lacus quis eget porttitor
-                                                                                tincidunt.
-                                                                            </div>
-                                                                            <div class="profile-detail-footer mt-3">
-                                                                                <ul class="list-unstyled list-inline">
-                                                                                    <li class="list-inline-item">
-                                                                                        <span>125 likes</span>
-                                                                                    </li>
-                                                                                    <li class="list-inline-item mx-5">
-                                                                                        <span class="text-black">50
-                                                                                            comments</span>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="footer-modal px-5 ">
-                                                                    <textarea name="" id="" cols="30" rows="5"
-                                                                        class="form-control"></textarea>
-                                                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis pulvinar lacus
+                                    amet urna tincidunt in ante quis augue. Vulputate volutpat, consectetur iaculis
+                                    pulvinar egestas duis egestas ipsum. Eget tincidunt viverra viverra eget
+                                    facilisis fames. Viverra vitae, aenean egestas et massa mauris. Risus commodo
+                                    interdum dui, massa ut. Accumsan blandit tortor placerat lobortis tortor aliquam
+                                    donec. Scelerisque amet nulla at id. Mattis sit massa sed pellentesque quis
+                                    etiam quis et justo. Risus, congue nec porta pulvinar. </p>
+                            </div>
+                            <div class="forums-footer">
+                                <div class="col-lg-12 p-0">
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingOne">
+                                                <h4 class="panel-title mb-0">
+                                                    <a role="button">
+                                                        <div class="forums-footer">
+                                                            <div class="row">
+                                                                <div class="col-md-9">
+                                                                    <ul class="list-unstyled list-inline mb-0">
+                                                                        <li class="list-inline-item">
+                                                                            <span><img src="./assets/images/likes.svg"
+                                                                                    alt=""></span> <span
+                                                                                class="social">Likes</span>
+                                                                            <p>125 Likes</p>
+                                                                        </li>
+                                                                        <li class="list-inline-item mx-5">
+                                                                            <span><img
+                                                                                    src="./assets/images/comments.svg"
+                                                                                    alt=""></span> <span class="social"
+                                                                                data-toggle="collapse"
+                                                                                data-parent="#accordion"
+                                                                                href="#collapseOne" aria-expanded="true"
+                                                                                aria-controls="collapseOne">Comments</span>
+                                                                            <p>50 Comments</p>
 
-                                                                <div class="d-flex justify-content-center py-4">
-                                                                    <div class="col-md-2 red-btn text-center">
-                                                                        <a class="">Submit</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <span><img src="./assets/images/share.svg" alt=""></span> <span
-                                                        class="social" data-toggle="modal"
-                                                        data-target="#shareModal">shares</span>
-                                                    <p>20 shares</p>
+                                                                            <!-- Modal -->
 
-                                                    <div class="modal fade" id="shareModal" tabindex="-1" role="dialog"
-                                                        aria-labelledby="shareModalLabel" aria-hidden="true">
-                                                        <div class="modal-dialog" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="shareModalLabel">Share
-                                                                        via</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <ul
-                                                                        class="list-unstyled list-inline d-flex justify-content-around">
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-whats.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-facebook.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-twitter.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-ins.svg"
-                                                                                alt=""></li>
+                                                                        </li>
+                                                                        <li class="list-inline-item">
+                                                                            <span><img src="./assets/images/share.svg"
+                                                                                    alt=""></span> <span class="social"
+                                                                                data-toggle="modal"
+                                                                                data-target="#shareModal">Shares</span>
+                                                                            <p>20 Shares</p>
+
+                                                                            <div class="modal fade" id="shareModal"
+                                                                                tabindex="-1" role="dialog"
+                                                                                aria-labelledby="shareModalLabel"
+                                                                                aria-hidden="true">
+                                                                                <div class="modal-dialog"
+                                                                                    role="document">
+                                                                                    <div class="modal-content">
+                                                                                        <div class="modal-header">
+                                                                                            <h5 class="modal-title"
+                                                                                                id="shareModalLabel">
+                                                                                                Share
+                                                                                                via</h5>
+                                                                                            <button type="button"
+                                                                                                class="close"
+                                                                                                data-dismiss="modal"
+                                                                                                aria-label="Close">
+                                                                                                <span
+                                                                                                    aria-hidden="true">&times;</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="modal-body">
+                                                                                            <ul
+                                                                                                class="list-unstyled list-inline d-flex justify-content-around mb-0">
+                                                                                                <li
+                                                                                                    class="list-inline-item">
+                                                                                                    <img src="./assets/images/share-whats.svg"
+                                                                                                        alt="">
+                                                                                                </li>
+                                                                                                <li
+                                                                                                    class="list-inline-item">
+                                                                                                    <img src="./assets/images/share-facebook.svg"
+                                                                                                        alt="">
+                                                                                                </li>
+                                                                                                <li
+                                                                                                    class="list-inline-item">
+                                                                                                    <img src="./assets/images/share-twitter.svg"
+                                                                                                        alt="">
+                                                                                                </li>
+                                                                                                <li
+                                                                                                    class="list-inline-item">
+                                                                                                    <img src="./assets/images/share-ins.svg"
+                                                                                                        alt="">
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                        <div
+                                                                                            class="share-footer row d-flex justify-content-center mt-3 mb-4">
+                                                                                            <div
+                                                                                                class="col-md-4 red-btn text-center">
+                                                                                                <span><img
+                                                                                                        src="./assets/images/share-link.svg"
+                                                                                                        alt=""> copy
+                                                                                                    link</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
                                                                     </ul>
                                                                 </div>
-                                                                <div
-                                                                    class="share-footer row d-flex justify-content-center mt-3 mb-4">
-                                                                    <div class="col-md-4 red-btn text-center">
-                                                                        <span><img src="./assets/images/share-link.svg"
-                                                                                alt=""> copy link</span>
+                                                                <div class="col-md-3 m-auto">
+                                                                    <div class="report-issue text-right"
+                                                                        data-toggle="modal"
+                                                                        data-target="#forumWrite-report">
+                                                                        <img src="./assets/images/report.svg"
+                                                                            alt=""><span> Report this
+                                                                            issue</span>
+
                                                                     </div>
                                                                 </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h4>
+                                                <!-- modal -->
+                                                <div class="modal fade" id="forumWrite-report" tabindex="-1"
+                                                    role="dialog" aria-labelledby="forumWriteLabel" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="forumWriteLabel">Report here
+                                                                </h5>
+                                                                <button type="button" class="close" data-dismiss="modal"
+                                                                    aria-label="Close">
+                                                                    <img src="./assets/images/close-svg.svg" alt=""
+                                                                        width="70%">
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <textarea name="" id="" cols="30" rows="10"
+                                                                    class="form-control attachments-box"></textarea>
+                                                            </div>
+                                                            <div class="footer text-center my-4">
+                                                                <a href="" class="submit">Submit</a>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="report-issue">
-                                                <img src="./assets/images/report.svg" alt=""><span> Report this
-                                                    issue</span>
+                                                </div>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                                                aria-labelledby="headingOne">
+                                                <div class="panel-body panel-body-bg-white">
+
+                                                    <div class="row pt-4 pb-5 ">
+                                                        <div class="col-md-7 col-sm-12">
+                                                            <div class="forums-heading forums-heading-sub d-flex">
+                                                                <h5 class="m-0">Comments</h5> <span
+                                                                    class="forums-heading-comments">50 Comments</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-9 text-right form-write-main">
+
+
+                                                            <span class="forums-write"><img
+                                                                    src="./assets/images/most-popular.svg"
+                                                                    alt=""><select name="" id="">
+                                                                    <option value="">Most commented</option>
+                                                                    <option value="">Most Liked</option>
+                                                                </select></span>
+
+
+                                                        </div>
+                                                        <div class="col-md-1 col-3 text-right form-write-main">
+                                                            <span class="" data-toggle="modal"><img
+                                                                    src="./assets/images/close-svg.svg" alt=""></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-body px-4">
+                                                        <div class="hieght-modal-body">
+                                                            <div class="comment-details d-flex mt-3 pr-3">
+                                                                <div class="profile-img">
+                                                                    <img src="./assets/images/comments-img-profile.svg"
+                                                                        alt="">
+                                                                </div>
+                                                                <div class="profile-details mt-3 ml-2">
+                                                                    <span class="profile-details-name">Angelina
+                                                                        Maddy</span> <span
+                                                                        class="profile-details-date">21 January
+                                                                        2021</span>
+                                                                    <div class="profile-detail-body mt-4">
+                                                                        Lorem ipsum dolor sit amet, consectetur
+                                                                        adipiscing elit. Nascetur vel quis sed
+                                                                        diam fusce pulvinar ultrices. Quis
+                                                                        elementum venenatis sed ut eget nunc,
+                                                                        tincidunt purus, neque. Massa malesuada
+                                                                        in dui et. Neque, urna est massa purus.
+                                                                        Aliquet lobortis hendrerit nisl, sed in
+                                                                        imperdiet vulputate enim in. Augue
+                                                                        ornare phasellus viverra facilisi
+                                                                        curabitur aliquam tempus tincidunt cras.
+                                                                        In urna risus scelerisque elementum
+                                                                        lacus amet elit, tortor eget. Malesuada
+                                                                        commodo bibendum amet volutpat. Enim
+                                                                        donec a, ut felis cras lacus.
+                                                                        Condimentum nec iaculis nullam mattis.
+                                                                        Mauris sed viverra vestibulum
+                                                                        pellentesque rhoncus et. Massa etiam
+                                                                        mauris, tristique leo laoreet sed
+                                                                        pulvinar dictum. Leo at dictum
+                                                                        pellentesque lacus quis eget porttitor
+                                                                        tincidunt.
+                                                                    </div>
+                                                                    <div class="profile-detail-footer mt-3">
+                                                                        <ul class="list-unstyled list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <span>125 Likes</span>
+                                                                            </li>
+                                                                            <li class="list-inline-item mx-5">
+                                                                                <span class="text-black"
+                                                                                    data-toggle="collapse"
+                                                                                    data-parent="#accordion"
+                                                                                    href="#collapseTwo"
+                                                                                    aria-expanded="true"
+                                                                                    aria-controls="collapseTwo">50
+                                                                                    Comments</span>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <div id="collapseTwo"
+                                                                            class="panel-collapse collapse in"
+                                                                            role="tabpanel"
+                                                                            aria-labelledby="headingOne">
+                                                                            <div class="panel-body panel-body-bg-white">
+                                                                                <div class="modal-body px-4">
+                                                                                    <div class="hieght-modal-body">
+                                                                                        <div
+                                                                                            class="comment-details d-flex mt-3 pr-3">
+                                                                                            <div class="profile-img">
+                                                                                                <img src="./assets/images/comments-img-profile.svg"
+                                                                                                    alt="">
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="profile-details mt-3 ml-2">
+                                                                                                <span
+                                                                                                    class="profile-details-name">Angelina
+                                                                                                    Maddy</span> <span
+                                                                                                    class="profile-details-date">21
+                                                                                                    January
+                                                                                                    2021</span>
+                                                                                                <div
+                                                                                                    class="profile-detail-body mt-4">
+                                                                                                    Lorem ipsum dolor
+                                                                                                    sit amet,
+                                                                                                    consectetur
+                                                                                                    adipiscing elit.
+                                                                                                    Nascetur vel quis
+                                                                                                    sed
+                                                                                                    diam fusce pulvinar
+                                                                                                    ultrices. Quis
+                                                                                                    elementum venenatis
+                                                                                                    sed ut eget nunc,
+                                                                                                    tincidunt purus,
+                                                                                                    neque. Massa
+                                                                                                    malesuada
+                                                                                                    in dui et. Neque,
+                                                                                                    urna est massa
+                                                                                                    purus.
+                                                                                                    Aliquet lobortis
+                                                                                                    hendrerit nisl, sed
+                                                                                                    in
+                                                                                                    imperdiet vulputate
+                                                                                                    enim in. Augue
+                                                                                                    ornare phasellus
+                                                                                                    viverra facilisi
+                                                                                                    curabitur aliquam
+                                                                                                    tempus tincidunt
+                                                                                                    cras.
+                                                                                                    In urna risus
+                                                                                                    scelerisque
+                                                                                                    elementum
+                                                                                                    lacus amet elit,
+                                                                                                    tortor eget.
+                                                                                                    Malesuada
+                                                                                                    commodo bibendum
+                                                                                                    amet volutpat. Enim
+                                                                                                    donec a, ut felis
+                                                                                                    cras lacus.
+                                                                                                    Condimentum nec
+                                                                                                    iaculis nullam
+                                                                                                    mattis.
+                                                                                                    Mauris sed viverra
+                                                                                                    vestibulum
+                                                                                                    pellentesque rhoncus
+                                                                                                    et. Massa etiam
+                                                                                                    mauris, tristique
+                                                                                                    leo laoreet sed
+                                                                                                    pulvinar dictum. Leo
+                                                                                                    at dictum
+                                                                                                    pellentesque lacus
+                                                                                                    quis eget porttitor
+                                                                                                    tincidunt.
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                        <div
+                                                                                            class="comment-details d-flex mt-3 pr-3">
+                                                                                            <div class="profile-img">
+                                                                                                <img src="./assets/images/comments-img-profile.svg"
+                                                                                                    alt="">
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="profile-details mt-3 ml-2">
+                                                                                                <span
+                                                                                                    class="profile-details-name">Angelina
+                                                                                                    Maddy</span> <span
+                                                                                                    class="profile-details-date">21
+                                                                                                    January
+                                                                                                    2021</span>
+                                                                                                <div
+                                                                                                    class="profile-detail-body mt-4">
+                                                                                                    Lorem ipsum dolor
+                                                                                                    sit amet,
+                                                                                                    consectetur
+                                                                                                    adipiscing elit.
+                                                                                                    Nascetur vel quis
+                                                                                                    sed
+                                                                                                    diam fusce pulvinar
+                                                                                                    ultrices. Quis
+                                                                                                    elementum venenatis
+                                                                                                    sed ut eget nunc,
+                                                                                                    tincidunt purus,
+                                                                                                    neque. Massa
+                                                                                                    malesuada
+                                                                                                    in dui et. Neque,
+                                                                                                    urna est massa
+                                                                                                    purus.
+                                                                                                    Aliquet lobortis
+                                                                                                    hendrerit nisl, sed
+                                                                                                    in
+                                                                                                    imperdiet vulputate
+                                                                                                    enim in. Augue
+                                                                                                    ornare phasellus
+                                                                                                    viverra facilisi
+                                                                                                    curabitur aliquam
+                                                                                                    tempus tincidunt
+                                                                                                    cras.
+                                                                                                    In urna risus
+                                                                                                    scelerisque
+                                                                                                    elementum
+                                                                                                    lacus amet elit,
+                                                                                                    tortor eget.
+                                                                                                    Malesuada
+                                                                                                    commodo bibendum
+                                                                                                    amet volutpat. Enim
+                                                                                                    donec a, ut felis
+                                                                                                    cras lacus.
+                                                                                                    Condimentum nec
+                                                                                                    iaculis nullam
+                                                                                                    mattis.
+                                                                                                    Mauris sed viverra
+                                                                                                    vestibulum
+                                                                                                    pellentesque rhoncus
+                                                                                                    et. Massa etiam
+                                                                                                    mauris, tristique
+                                                                                                    leo laoreet sed
+                                                                                                    pulvinar dictum. Leo
+                                                                                                    at dictum
+                                                                                                    pellentesque lacus
+                                                                                                    quis eget porttitor
+                                                                                                    tincidunt.
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="my-4">
+                                                                                        <textarea name="" id=""
+                                                                                            cols="30" rows="10"
+                                                                                            class="form-control attachments-box"
+                                                                                            placeholder="Write your comments....."></textarea>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="footer text-center my-4">
+                                                                                        <a href=""
+                                                                                            class="submit">Upload</a>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <hr class="horitontal-line">
+                                                            </div>
+
+                                                            <div class="comment-details d-flex mt-3 pr-3">
+                                                                <div class="profile-img">
+                                                                    <img src="./assets/images/comments-img-profile.svg"
+                                                                        alt="">
+                                                                </div>
+                                                                <div class="profile-details mt-3 ml-2">
+                                                                    <span class="profile-details-name">Angelina
+                                                                        Maddy</span> <span
+                                                                        class="profile-details-date">21 January
+                                                                        2021</span>
+                                                                    <div class="profile-detail-body mt-4">
+                                                                        Lorem ipsum dolor sit amet, consectetur
+                                                                        adipiscing elit. Nascetur vel quis sed
+                                                                        diam fusce pulvinar ultrices. Quis
+                                                                        elementum venenatis sed ut eget nunc,
+                                                                        tincidunt purus, neque. Massa malesuada
+                                                                        in dui et. Neque, urna est massa purus.
+                                                                        Aliquet lobortis hendrerit nisl, sed in
+                                                                        imperdiet vulputate enim in. Augue
+                                                                        ornare phasellus viverra facilisi
+                                                                        curabitur aliquam tempus tincidunt cras.
+                                                                        In urna risus scelerisque elementum
+                                                                        lacus amet elit, tortor eget. Malesuada
+                                                                        commodo bibendum amet volutpat. Enim
+                                                                        donec a, ut felis cras lacus.
+                                                                        Condimentum nec iaculis nullam mattis.
+                                                                        Mauris sed viverra vestibulum
+                                                                        pellentesque rhoncus et. Massa etiam
+                                                                        mauris, tristique leo laoreet sed
+                                                                        pulvinar dictum. Leo at dictum
+                                                                        pellentesque lacus quis eget porttitor
+                                                                        tincidunt.
+                                                                    </div>
+                                                                    <div class="profile-detail-footer mt-3">
+                                                                        <ul class="list-unstyled list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <span>125 Likes</span>
+                                                                            </li>
+                                                                            <li class="list-inline-item mx-5">
+                                                                                <span class="text-black">50
+                                                                                    comments</span>
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </div>
+                                                                </div>
+                                                                <hr class="horitontal-line">
+                                                            </div>
+
+
+                                                        </div>
+                                                        <div class="my-4">
+                                                            <textarea name="" id="" cols="30" rows="10"
+                                                                class="form-control attachments-box"
+                                                                placeholder="Write your comments....."></textarea>
+                                                        </div>
+                                                        <div class="footer text-center my-4">
+                                                            <a href="" class="submit">Upload</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -375,662 +684,477 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 p-0">
-                        <div class="forums-card-two">
-                            <div class="container-left container-right">
+                </div>
+                <div class="col-md-12 p-0">
+                    <div class="forums-card-two">
+                        <div class="container-left container-right">
 
 
-                                <div class="forums-profile d-flex">
-                                    <div>
-                                        <img src="./assets/images/profile-img.svg" alt="">
-                                    </div>
-                                    <div class="ml-3 mt-2">
-                                        <p class="profile-name m-0">Dummy Name</p>
-                                        <span class="date">4 days ago</span>
-                                    </div>
+                            <div class="forums-profile d-flex">
+                                <div>
+                                    <img src="./assets/images/profile-img.svg" alt="">
                                 </div>
-                                <div class="forums-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis pulvinar lacus
-                                        amet urna tincidunt in ante quis augue. Vulputate volutpat, consectetur iaculis
-                                        pulvinar egestas duis egestas ipsum. Eget tincidunt viverra viverra eget
-                                        facilisis fames. Viverra vitae, aenean egestas et massa mauris. Risus commodo
-                                        interdum dui, massa ut. Accumsan blandit tortor placerat lobortis tortor aliquam
-                                        donec. Scelerisque amet nulla at id. Mattis sit massa sed pellentesque quis
-                                        etiam quis et justo. Risus, congue nec porta pulvinar. </p>
-                                </div>
-                                <div class="forums-footer">
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <ul class="list-unstyled list-inline">
-                                                <li class="list-inline-item">
-                                                    <span><img src="./assets/images/likes-black.svg" alt=""></span>
-                                                    <span class="social">likes</span>
-                                                    <p>125 likes</p>
-                                                </li>
-                                                <li class="list-inline-item mx-5">
-                                                    <span><img src="./assets/images/comments-black.svg" alt=""></span>
-                                                    <span class="social" data-toggle="modal"
-                                                        data-target="#comment-modal">comments</span>
-                                                    <p>50 comments</p>
-
-                                                    <!-- Modal -->
-                                                    <div class="modal comments-modal fade" id="comment-modal"
-                                                        tabindex="-1" role="dialog" aria-labelledby="comment-modalTitle"
-                                                        aria-hidden="true">
-                                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header px-4">
-                                                                    <h5 class="modal-title" id="comment-modalTitle">
-                                                                    </h5>
-                                                                    Comments</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body px-4">
-                                                                    <div class="comment-details d-flex mt-3">
-                                                                        <div class="profile-img">
-                                                                            <img src="./assets/images/comments-img-profile.svg"
-                                                                                alt="">
-                                                                        </div>
-                                                                        <div class="profile-details mt-3 ml-2">
-                                                                            <span class="profile-details-name">Angelina
-                                                                                Maddy</span> <span
-                                                                                class="profile-details-date">21 January
-                                                                                2021</span>
-                                                                            <div class="profile-detail-body mt-4">
-                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit. Nascetur vel quis sed
-                                                                                diam fusce pulvinar ultrices. Quis
-                                                                                elementum venenatis sed ut eget nunc,
-                                                                                tincidunt purus, neque. Massa malesuada
-                                                                                in dui et. Neque, urna est massa purus.
-                                                                                Aliquet lobortis hendrerit nisl, sed in
-                                                                                imperdiet vulputate enim in. Augue
-                                                                                ornare phasellus viverra facilisi
-                                                                                curabitur aliquam tempus tincidunt cras.
-                                                                                In urna risus scelerisque elementum
-                                                                                lacus amet elit, tortor eget. Malesuada
-                                                                                commodo bibendum amet volutpat. Enim
-                                                                                donec a, ut felis cras lacus.
-                                                                                Condimentum nec iaculis nullam mattis.
-                                                                                Mauris sed viverra vestibulum
-                                                                                pellentesque rhoncus et. Massa etiam
-                                                                                mauris, tristique leo laoreet sed
-                                                                                pulvinar dictum. Leo at dictum
-                                                                                pellentesque lacus quis eget porttitor
-                                                                                tincidunt.
-                                                                            </div>
-                                                                            <div class="profile-detail-footer mt-3">
-                                                                                <ul class="list-unstyled list-inline">
-                                                                                    <li class="list-inline-item">
-                                                                                        <span>125 likes</span>
-                                                                                    </li>
-                                                                                    <li class="list-inline-item mx-5">
-                                                                                        <span class="text-black">50
-                                                                                            comments</span>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="comment-details d-flex mt-3">
-                                                                        <div class="profile-img">
-                                                                            <img src="./assets/images/comments-img-profile.svg"
-                                                                                alt="">
-                                                                        </div>
-                                                                        <div class="profile-details mt-3 ml-2">
-                                                                            <span class="profile-details-name">Angelina
-                                                                                Maddy</span> <span
-                                                                                class="profile-details-date">21 January
-                                                                                2021</span>
-                                                                            <div class="profile-detail-body mt-4">
-                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit. Nascetur vel quis sed
-                                                                                diam fusce pulvinar ultrices. Quis
-                                                                                elementum venenatis sed ut eget nunc,
-                                                                                tincidunt purus, neque. Massa malesuada
-                                                                                in dui et. Neque, urna est massa purus.
-                                                                                Aliquet lobortis hendrerit nisl, sed in
-                                                                                imperdiet vulputate enim in. Augue
-                                                                                ornare phasellus viverra facilisi
-                                                                                curabitur aliquam tempus tincidunt cras.
-                                                                                In urna risus scelerisque elementum
-                                                                                lacus amet elit, tortor eget. Malesuada
-                                                                                commodo bibendum amet volutpat. Enim
-                                                                                donec a, ut felis cras lacus.
-                                                                                Condimentum nec iaculis nullam mattis.
-                                                                                Mauris sed viverra vestibulum
-                                                                                pellentesque rhoncus et. Massa etiam
-                                                                                mauris, tristique leo laoreet sed
-                                                                                pulvinar dictum. Leo at dictum
-                                                                                pellentesque lacus quis eget porttitor
-                                                                                tincidunt.
-                                                                            </div>
-                                                                            <div class="profile-detail-footer mt-3">
-                                                                                <ul class="list-unstyled list-inline">
-                                                                                    <li class="list-inline-item">
-                                                                                        <span>125 likes</span>
-                                                                                    </li>
-                                                                                    <li class="list-inline-item mx-5">
-                                                                                        <span class="text-black">50
-                                                                                            comments</span>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="footer-modal px-5 ">
-                                                                    <textarea name="" id="" cols="30" rows="5"
-                                                                        class="form-control"></textarea>
-                                                                </div>
-
-                                                                <div class="d-flex justify-content-center py-4">
-                                                                    <div class="col-md-2 red-btn text-center">
-                                                                        <a class="">Submit</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <span><img src="./assets/images/share-black.svg" alt=""></span>
-                                                    <span class="social" data-toggle="modal"
-                                                        data-target="#shareModal">shares</span>
-                                                    <p>20 shares</p>
-
-                                                    <div class="modal fade" id="shareModal" tabindex="-1" role="dialog"
-                                                        aria-labelledby="shareModalLabel" aria-hidden="true">
-                                                        <div class="modal-dialog" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="shareModalLabel">Share
-                                                                        via</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <ul
-                                                                        class="list-unstyled list-inline d-flex justify-content-around">
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-whats.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-facebook.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-twitter.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-ins.svg"
-                                                                                alt=""></li>
-                                                                    </ul>
-                                                                </div>
-                                                                <div
-                                                                    class="share-footer row d-flex justify-content-center mt-3 mb-4">
-                                                                    <div class="col-md-4 red-btn text-center">
-                                                                        <span><img src="./assets/images/share-link.svg"
-                                                                                alt=""> copy link</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="report-issue">
-                                                <img src="./assets/images/report.svg" alt=""><span> Report this
-                                                    issue</span>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div class="ml-3 mt-2">
+                                    <p class="profile-name m-0">Dummy Name</p>
+                                    <span class="date">4 days ago</span>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 p-0">
-                        <div class="forums-card-one">
-                            <div class="container-left container-right">
+                            <div class="forums-body">
 
-
-                                <div class="forums-profile d-flex">
-                                    <div>
-                                        <img src="./assets/images/profile-img.svg" alt="">
-                                    </div>
-                                    <div class="ml-3 mt-2">
-                                        <p class="profile-name m-0">Dummy Name</p>
-                                        <span class="date">4 days ago</span>
-                                    </div>
-                                </div>
-                                <div class="forums-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis pulvinar lacus
-                                        amet urna tincidunt in ante quis augue. Vulputate volutpat, consectetur iaculis
-                                        pulvinar egestas duis egestas ipsum. Eget tincidunt viverra viverra eget
-                                        facilisis fames. Viverra vitae, aenean egestas et massa mauris. Risus commodo
-                                        interdum dui, massa ut. Accumsan blandit tortor placerat lobortis tortor aliquam
-                                        donec. Scelerisque amet nulla at id. Mattis sit massa sed pellentesque quis
-                                        etiam quis et justo. Risus, congue nec porta pulvinar. </p>
-                                </div>
-                                <div class="forums-footer">
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <ul class="list-unstyled list-inline">
-                                                <li class="list-inline-item">
-                                                    <span><img src="./assets/images/likes.svg" alt=""></span> <span
-                                                        class="social">likes</span>
-                                                    <p>125 likes</p>
-                                                </li>
-                                                <li class="list-inline-item mx-5">
-                                                    <span><img src="./assets/images/comments.svg" alt=""></span> <span
-                                                        class="social" data-toggle="modal"
-                                                        data-target="#comment-modal">comments</span>
-                                                    <p>50 comments</p>
-
-                                                    <!-- Modal -->
-                                                    <div class="modal comments-modal fade" id="comment-modal"
-                                                        tabindex="-1" role="dialog" aria-labelledby="comment-modalTitle"
-                                                        aria-hidden="true">
-                                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header px-4">
-                                                                    <h5 class="modal-title" id="comment-modalTitle">
-                                                                    </h5>
-                                                                    Comments</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body px-4">
-                                                                    <div class="comment-details d-flex mt-3">
-                                                                        <div class="profile-img">
-                                                                            <img src="./assets/images/comments-img-profile.svg"
-                                                                                alt="">
-                                                                        </div>
-                                                                        <div class="profile-details mt-3 ml-2">
-                                                                            <span class="profile-details-name">Angelina
-                                                                                Maddy</span> <span
-                                                                                class="profile-details-date">21 January
-                                                                                2021</span>
-                                                                            <div class="profile-detail-body mt-4">
-                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit. Nascetur vel quis sed
-                                                                                diam fusce pulvinar ultrices. Quis
-                                                                                elementum venenatis sed ut eget nunc,
-                                                                                tincidunt purus, neque. Massa malesuada
-                                                                                in dui et. Neque, urna est massa purus.
-                                                                                Aliquet lobortis hendrerit nisl, sed in
-                                                                                imperdiet vulputate enim in. Augue
-                                                                                ornare phasellus viverra facilisi
-                                                                                curabitur aliquam tempus tincidunt cras.
-                                                                                In urna risus scelerisque elementum
-                                                                                lacus amet elit, tortor eget. Malesuada
-                                                                                commodo bibendum amet volutpat. Enim
-                                                                                donec a, ut felis cras lacus.
-                                                                                Condimentum nec iaculis nullam mattis.
-                                                                                Mauris sed viverra vestibulum
-                                                                                pellentesque rhoncus et. Massa etiam
-                                                                                mauris, tristique leo laoreet sed
-                                                                                pulvinar dictum. Leo at dictum
-                                                                                pellentesque lacus quis eget porttitor
-                                                                                tincidunt.
-                                                                            </div>
-                                                                            <div class="profile-detail-footer mt-3">
-                                                                                <ul class="list-unstyled list-inline">
-                                                                                    <li class="list-inline-item">
-                                                                                        <span>125 likes</span>
-                                                                                    </li>
-                                                                                    <li class="list-inline-item mx-5">
-                                                                                        <span class="text-black">50
-                                                                                            comments</span>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="comment-details d-flex mt-3">
-                                                                        <div class="profile-img">
-                                                                            <img src="./assets/images/comments-img-profile.svg"
-                                                                                alt="">
-                                                                        </div>
-                                                                        <div class="profile-details mt-3 ml-2">
-                                                                            <span class="profile-details-name">Angelina
-                                                                                Maddy</span> <span
-                                                                                class="profile-details-date">21 January
-                                                                                2021</span>
-                                                                            <div class="profile-detail-body mt-4">
-                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit. Nascetur vel quis sed
-                                                                                diam fusce pulvinar ultrices. Quis
-                                                                                elementum venenatis sed ut eget nunc,
-                                                                                tincidunt purus, neque. Massa malesuada
-                                                                                in dui et. Neque, urna est massa purus.
-                                                                                Aliquet lobortis hendrerit nisl, sed in
-                                                                                imperdiet vulputate enim in. Augue
-                                                                                ornare phasellus viverra facilisi
-                                                                                curabitur aliquam tempus tincidunt cras.
-                                                                                In urna risus scelerisque elementum
-                                                                                lacus amet elit, tortor eget. Malesuada
-                                                                                commodo bibendum amet volutpat. Enim
-                                                                                donec a, ut felis cras lacus.
-                                                                                Condimentum nec iaculis nullam mattis.
-                                                                                Mauris sed viverra vestibulum
-                                                                                pellentesque rhoncus et. Massa etiam
-                                                                                mauris, tristique leo laoreet sed
-                                                                                pulvinar dictum. Leo at dictum
-                                                                                pellentesque lacus quis eget porttitor
-                                                                                tincidunt.
-                                                                            </div>
-                                                                            <div class="profile-detail-footer mt-3">
-                                                                                <ul class="list-unstyled list-inline">
-                                                                                    <li class="list-inline-item">
-                                                                                        <span>125 likes</span>
-                                                                                    </li>
-                                                                                    <li class="list-inline-item mx-5">
-                                                                                        <span class="text-black">50
-                                                                                            comments</span>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="footer-modal px-5 ">
-                                                                    <textarea name="" id="" cols="30" rows="5"
-                                                                        class="form-control"></textarea>
-                                                                </div>
-
-                                                                <div class="d-flex justify-content-center py-4">
-                                                                    <div class="col-md-2 red-btn text-center">
-                                                                        <a class="">Submit</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <span><img src="./assets/images/share.svg" alt=""></span> <span
-                                                        class="social" data-toggle="modal"
-                                                        data-target="#shareModal">shares</span>
-                                                    <p>20 shares</p>
-
-                                                    <div class="modal fade" id="shareModal" tabindex="-1" role="dialog"
-                                                        aria-labelledby="shareModalLabel" aria-hidden="true">
-                                                        <div class="modal-dialog" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="shareModalLabel">Share
-                                                                        via</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <ul
-                                                                        class="list-unstyled list-inline d-flex justify-content-around">
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-whats.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-facebook.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-twitter.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-ins.svg"
-                                                                                alt=""></li>
-                                                                    </ul>
-                                                                </div>
-                                                                <div
-                                                                    class="share-footer row d-flex justify-content-center mt-3 mb-4">
-                                                                    <div class="col-md-4 red-btn text-center">
-                                                                        <span><img src="./assets/images/share-link.svg"
-                                                                                alt=""> copy link</span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="report-issue">
-                                                <img src="./assets/images/report.svg" alt=""><span> Report this
-                                                    issue</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis pulvinar lacus
+                                    amet urna tincidunt in ante quis augue. Vulputate volutpat, consectetur iaculis
+                                    pulvinar egestas duis egestas ipsum. Eget tincidunt viverra viverra eget
+                                    facilisis fames. Viverra vitae, aenean egestas et massa mauris. Risus commodo
+                                    interdum dui, massa ut. Accumsan blandit tortor placerat lobortis tortor aliquam
+                                    donec. Scelerisque amet nulla at id. Mattis sit massa sed pellentesque quis
+                                    etiam quis et justo. Risus, congue nec porta pulvinar. </p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-12 p-0">
-                        <div class="forums-card-two">
-                            <div class="container-left container-right">
+                            <div class="forums-footer">
+                                <div class="col-lg-12 p-0">
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingOne">
+                                                <h4 class="panel-title mb-0">
+                                                    <a role="button">
+                                                        <div class="forums-footer">
+                                                            <div class="row">
+                                                                <div class="col-md-9">
+                                                                    <ul class="list-unstyled list-inline mb-0">
+                                                                        <li class="list-inline-item">
+                                                                            <span><img src="./assets/images/likes.svg"
+                                                                                    alt=""></span> <span
+                                                                                class="social">Likes</span>
+                                                                            <p>125 Likes</p>
+                                                                        </li>
+                                                                        <li class="list-inline-item mx-5">
+                                                                            <span><img
+                                                                                    src="./assets/images/comments.svg"
+                                                                                    alt=""></span> <span class="social"
+                                                                                data-toggle="collapse"
+                                                                                data-parent="#accordion"
+                                                                                href="#collapseThree"
+                                                                                aria-expanded="true"
+                                                                                aria-controls="collapseThree">Comments</span>
+                                                                            <p>50 comments</p>
 
+                                                                            <!-- Modal -->
 
-                                <div class="forums-profile d-flex">
-                                    <div>
-                                        <img src="./assets/images/profile-img.svg" alt="">
-                                    </div>
-                                    <div class="ml-3 mt-2">
-                                        <p class="profile-name m-0">Dummy Name</p>
-                                        <span class="date">4 days ago</span>
-                                    </div>
-                                </div>
-                                <div class="forums-body">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis pulvinar lacus
-                                        amet urna tincidunt in ante quis augue. Vulputate volutpat, consectetur iaculis
-                                        pulvinar egestas duis egestas ipsum. Eget tincidunt viverra viverra eget
-                                        facilisis fames. Viverra vitae, aenean egestas et massa mauris. Risus commodo
-                                        interdum dui, massa ut. Accumsan blandit tortor placerat lobortis tortor aliquam
-                                        donec. Scelerisque amet nulla at id. Mattis sit massa sed pellentesque quis
-                                        etiam quis et justo. Risus, congue nec porta pulvinar. </p>
-                                </div>
-                                <div class="forums-footer">
-                                    <div class="row">
-                                        <div class="col-md-10">
-                                            <ul class="list-unstyled list-inline">
-                                                <li class="list-inline-item">
-                                                    <span><img src="./assets/images/likes-black.svg" alt=""></span>
-                                                    <span class="social">likes</span>
-                                                    <p>125 likes</p>
-                                                </li>
-                                                <li class="list-inline-item mx-5">
-                                                    <span><img src="./assets/images/comments-black.svg" alt=""></span>
-                                                    <span class="social" data-toggle="modal"
-                                                        data-target="#comment-modal">comments</span>
-                                                    <p>50 comments</p>
+                                                                        </li>
+                                                                        <li class="list-inline-item">
+                                                                            <span><img src="./assets/images/share.svg"
+                                                                                    alt=""></span> <span class="social"
+                                                                                data-toggle="modal"
+                                                                                data-target="#shareModal">shares</span>
+                                                                            <p>20 Shares</p>
 
-                                                    <!-- Modal -->
-                                                    <div class="modal comments-modal fade" id="comment-modal"
-                                                        tabindex="-1" role="dialog" aria-labelledby="comment-modalTitle"
-                                                        aria-hidden="true">
-                                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header px-4">
-                                                                    <h5 class="modal-title" id="comment-modalTitle">
-                                                                    </h5>
-                                                                    Comments</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body px-4">
-                                                                    <div class="comment-details d-flex mt-3">
-                                                                        <div class="profile-img">
-                                                                            <img src="./assets/images/comments-img-profile.svg"
-                                                                                alt="">
-                                                                        </div>
-                                                                        <div class="profile-details mt-3 ml-2">
-                                                                            <span class="profile-details-name">Angelina
-                                                                                Maddy</span> <span
-                                                                                class="profile-details-date">21 January
-                                                                                2021</span>
-                                                                            <div class="profile-detail-body mt-4">
-                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit. Nascetur vel quis sed
-                                                                                diam fusce pulvinar ultrices. Quis
-                                                                                elementum venenatis sed ut eget nunc,
-                                                                                tincidunt purus, neque. Massa malesuada
-                                                                                in dui et. Neque, urna est massa purus.
-                                                                                Aliquet lobortis hendrerit nisl, sed in
-                                                                                imperdiet vulputate enim in. Augue
-                                                                                ornare phasellus viverra facilisi
-                                                                                curabitur aliquam tempus tincidunt cras.
-                                                                                In urna risus scelerisque elementum
-                                                                                lacus amet elit, tortor eget. Malesuada
-                                                                                commodo bibendum amet volutpat. Enim
-                                                                                donec a, ut felis cras lacus.
-                                                                                Condimentum nec iaculis nullam mattis.
-                                                                                Mauris sed viverra vestibulum
-                                                                                pellentesque rhoncus et. Massa etiam
-                                                                                mauris, tristique leo laoreet sed
-                                                                                pulvinar dictum. Leo at dictum
-                                                                                pellentesque lacus quis eget porttitor
-                                                                                tincidunt.
+                                                                            <div class="modal fade" id="shareModal"
+                                                                                tabindex="-1" role="dialog"
+                                                                                aria-labelledby="shareModalLabel"
+                                                                                aria-hidden="true">
+                                                                                <div class="modal-dialog"
+                                                                                    role="document">
+                                                                                    <div class="modal-content">
+                                                                                        <div class="modal-header">
+                                                                                            <h5 class="modal-title"
+                                                                                                id="shareModalLabel">
+                                                                                                Share
+                                                                                                via</h5>
+                                                                                            <button type="button"
+                                                                                                class="close"
+                                                                                                data-dismiss="modal"
+                                                                                                aria-label="Close">
+                                                                                                <span
+                                                                                                    aria-hidden="true">&times;</span>
+                                                                                            </button>
+                                                                                        </div>
+                                                                                        <div class="modal-body">
+                                                                                            <ul
+                                                                                                class="list-unstyled list-inline d-flex justify-content-around mb-0">
+                                                                                                <li
+                                                                                                    class="list-inline-item">
+                                                                                                    <img src="./assets/images/share-whats.svg"
+                                                                                                        alt="">
+                                                                                                </li>
+                                                                                                <li
+                                                                                                    class="list-inline-item">
+                                                                                                    <img src="./assets/images/share-facebook.svg"
+                                                                                                        alt="">
+                                                                                                </li>
+                                                                                                <li
+                                                                                                    class="list-inline-item">
+                                                                                                    <img src="./assets/images/share-twitter.svg"
+                                                                                                        alt="">
+                                                                                                </li>
+                                                                                                <li
+                                                                                                    class="list-inline-item">
+                                                                                                    <img src="./assets/images/share-ins.svg"
+                                                                                                        alt="">
+                                                                                                </li>
+                                                                                            </ul>
+                                                                                        </div>
+                                                                                        <div
+                                                                                            class="share-footer row d-flex justify-content-center mt-3 mb-4">
+                                                                                            <div
+                                                                                                class="col-md-4 red-btn text-center">
+                                                                                                <span><img
+                                                                                                        src="./assets/images/share-link.svg"
+                                                                                                        alt=""> copy
+                                                                                                    link</span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
                                                                             </div>
-                                                                            <div class="profile-detail-footer mt-3">
-                                                                                <ul class="list-unstyled list-inline">
-                                                                                    <li class="list-inline-item">
-                                                                                        <span>125 likes</span>
-                                                                                    </li>
-                                                                                    <li class="list-inline-item mx-5">
-                                                                                        <span class="text-black">50
-                                                                                            comments</span>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="comment-details d-flex mt-3">
-                                                                        <div class="profile-img">
-                                                                            <img src="./assets/images/comments-img-profile.svg"
-                                                                                alt="">
-                                                                        </div>
-                                                                        <div class="profile-details mt-3 ml-2">
-                                                                            <span class="profile-details-name">Angelina
-                                                                                Maddy</span> <span
-                                                                                class="profile-details-date">21 January
-                                                                                2021</span>
-                                                                            <div class="profile-detail-body mt-4">
-                                                                                Lorem ipsum dolor sit amet, consectetur
-                                                                                adipiscing elit. Nascetur vel quis sed
-                                                                                diam fusce pulvinar ultrices. Quis
-                                                                                elementum venenatis sed ut eget nunc,
-                                                                                tincidunt purus, neque. Massa malesuada
-                                                                                in dui et. Neque, urna est massa purus.
-                                                                                Aliquet lobortis hendrerit nisl, sed in
-                                                                                imperdiet vulputate enim in. Augue
-                                                                                ornare phasellus viverra facilisi
-                                                                                curabitur aliquam tempus tincidunt cras.
-                                                                                In urna risus scelerisque elementum
-                                                                                lacus amet elit, tortor eget. Malesuada
-                                                                                commodo bibendum amet volutpat. Enim
-                                                                                donec a, ut felis cras lacus.
-                                                                                Condimentum nec iaculis nullam mattis.
-                                                                                Mauris sed viverra vestibulum
-                                                                                pellentesque rhoncus et. Massa etiam
-                                                                                mauris, tristique leo laoreet sed
-                                                                                pulvinar dictum. Leo at dictum
-                                                                                pellentesque lacus quis eget porttitor
-                                                                                tincidunt.
-                                                                            </div>
-                                                                            <div class="profile-detail-footer mt-3">
-                                                                                <ul class="list-unstyled list-inline">
-                                                                                    <li class="list-inline-item">
-                                                                                        <span>125 likes</span>
-                                                                                    </li>
-                                                                                    <li class="list-inline-item mx-5">
-                                                                                        <span class="text-black">50
-                                                                                            comments</span>
-                                                                                    </li>
-                                                                                </ul>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="footer-modal px-5 ">
-                                                                    <textarea name="" id="" cols="30" rows="5"
-                                                                        class="form-control"></textarea>
-                                                                </div>
-
-                                                                <div class="d-flex justify-content-center py-4">
-                                                                    <div class="col-md-2 red-btn text-center">
-                                                                        <a class="">Submit</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li class="list-inline-item">
-                                                    <span><img src="./assets/images/share-black.svg" alt=""></span>
-                                                    <span class="social" data-toggle="modal"
-                                                        data-target="#shareModal">shares</span>
-                                                    <p>20 shares</p>
-
-                                                    <div class="modal fade" id="shareModal" tabindex="-1" role="dialog"
-                                                        aria-labelledby="shareModalLabel" aria-hidden="true">
-                                                        <div class="modal-dialog" role="document">
-                                                            <div class="modal-content">
-                                                                <div class="modal-header">
-                                                                    <h5 class="modal-title" id="shareModalLabel">Share
-                                                                        via</h5>
-                                                                    <button type="button" class="close"
-                                                                        data-dismiss="modal" aria-label="Close">
-                                                                        <span aria-hidden="true">&times;</span>
-                                                                    </button>
-                                                                </div>
-                                                                <div class="modal-body">
-                                                                    <ul
-                                                                        class="list-unstyled list-inline d-flex justify-content-around">
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-whats.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-facebook.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-twitter.svg"
-                                                                                alt=""></li>
-                                                                        <li class="list-inline-item"><img
-                                                                                src="./assets/images/share-ins.svg"
-                                                                                alt=""></li>
+                                                                        </li>
                                                                     </ul>
                                                                 </div>
-                                                                <div
-                                                                    class="share-footer row d-flex justify-content-center mt-3 mb-4">
-                                                                    <div class="col-md-4 red-btn text-center">
-                                                                        <span><img src="./assets/images/share-link.svg"
-                                                                                alt=""> copy link</span>
+                                                                <div class="col-md-3 m-auto">
+                                                                    <div class="report-issue text-right"
+                                                                        data-toggle="modal"
+                                                                        data-target="#forumWrite-report1">
+                                                                        <img src="./assets/images/report.svg"
+                                                                            alt=""><span> Report this
+                                                                            issue</span>
+
                                                                     </div>
                                                                 </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </h4>
+                                                <!-- modal -->
+                                                <div class="modal fade" id="forumWrite-report1" tabindex="-1"
+                                                    role="dialog" aria-labelledby="forumWriteLabel" aria-hidden="true">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title" id="forumWriteLabel">Report here
+                                                                </h5>
+                                                                <button type="button" class="close" data-dismiss="modal"
+                                                                    aria-label="Close">
+                                                                    <img src="./assets/images/close-svg.svg" alt=""
+                                                                        width="70%">
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <textarea name="" id="" cols="30" rows="10"
+                                                                    class="form-control attachments-box"></textarea>
+                                                            </div>
+                                                            <div class="footer text-center my-4">
+                                                                <a href="" class="submit">Submit</a>
                                                             </div>
                                                         </div>
                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel"
+                                                aria-labelledby="headingOne">
+                                                <div class="panel-body panel-body-bg-white">
 
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="report-issue">
-                                                <img src="./assets/images/report.svg" alt=""><span> Report this
-                                                    issue</span>
+                                                    <div class="row pt-4 pb-5 ">
+                                                        <div class="col-md-7 col-sm-12">
+                                                            <div class="forums-heading forums-heading-sub d-flex">
+                                                                <h5 class="m-0">Comments</h5> <span
+                                                                    class="forums-heading-comments">50 Comments</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-4 col-9 text-right form-write-main">
+
+
+                                                            <span class="forums-write"><img
+                                                                    src="./assets/images/most-popular.svg"
+                                                                    alt=""><select name="" id="">
+                                                                    <option value="">Most commented</option>
+                                                                    <option value="">Most Liked</option>
+                                                                </select></span>
+
+
+                                                        </div>
+                                                        <div class="col-md-1 col-3 text-right form-write-main">
+                                                            <span class="" data-toggle="modal"><img
+                                                                    src="./assets/images/close-svg.svg" alt=""></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="modal-body px-4">
+                                                        <div class="hieght-modal-body">
+                                                            <div class="comment-details d-flex mt-3 pr-3">
+                                                                <div class="profile-img">
+                                                                    <img src="./assets/images/comments-img-profile.svg"
+                                                                        alt="">
+                                                                </div>
+                                                                <div class="profile-details mt-3 ml-2">
+                                                                    <span class="profile-details-name">Angelina
+                                                                        Maddy</span> <span
+                                                                        class="profile-details-date">21 January
+                                                                        2021</span>
+                                                                    <div class="profile-detail-body mt-4">
+                                                                        Lorem ipsum dolor sit amet, consectetur
+                                                                        adipiscing elit. Nascetur vel quis sed
+                                                                        diam fusce pulvinar ultrices. Quis
+                                                                        elementum venenatis sed ut eget nunc,
+                                                                        tincidunt purus, neque. Massa malesuada
+                                                                        in dui et. Neque, urna est massa purus.
+                                                                        Aliquet lobortis hendrerit nisl, sed in
+                                                                        imperdiet vulputate enim in. Augue
+                                                                        ornare phasellus viverra facilisi
+                                                                        curabitur aliquam tempus tincidunt cras.
+                                                                        In urna risus scelerisque elementum
+                                                                        lacus amet elit, tortor eget. Malesuada
+                                                                        commodo bibendum amet volutpat. Enim
+                                                                        donec a, ut felis cras lacus.
+                                                                        Condimentum nec iaculis nullam mattis.
+                                                                        Mauris sed viverra vestibulum
+                                                                        pellentesque rhoncus et. Massa etiam
+                                                                        mauris, tristique leo laoreet sed
+                                                                        pulvinar dictum. Leo at dictum
+                                                                        pellentesque lacus quis eget porttitor
+                                                                        tincidunt.
+                                                                    </div>
+                                                                    <div class="profile-detail-footer mt-3">
+                                                                        <ul class="list-unstyled list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <span>125 Likes</span>
+                                                                            </li>
+                                                                            <li class="list-inline-item mx-5">
+                                                                                <span class="text-black"
+                                                                                    data-toggle="collapse"
+                                                                                    data-parent="#accordion"
+                                                                                    href="#collapseFour"
+                                                                                    aria-expanded="true"
+                                                                                    aria-controls="collapseFour">50
+                                                                                    comments</span>
+                                                                            </li>
+                                                                        </ul>
+                                                                        <div id="collapseFour"
+                                                                            class="panel-collapse collapse in"
+                                                                            role="tabpanel"
+                                                                            aria-labelledby="headingOne">
+                                                                            <div class="panel-body panel-body-bg-white">
+                                                                                <div class="modal-body px-4">
+                                                                                    <div class="hieght-modal-body">
+                                                                                        <div
+                                                                                            class="comment-details d-flex mt-3 pr-3">
+                                                                                            <div class="profile-img">
+                                                                                                <img src="./assets/images/comments-img-profile.svg"
+                                                                                                    alt="">
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="profile-details mt-3 ml-2">
+                                                                                                <span
+                                                                                                    class="profile-details-name">Angelina
+                                                                                                    Maddy</span> <span
+                                                                                                    class="profile-details-date">21
+                                                                                                    January
+                                                                                                    2021</span>
+                                                                                                <div
+                                                                                                    class="profile-detail-body mt-4">
+                                                                                                    Lorem ipsum dolor
+                                                                                                    sit amet,
+                                                                                                    consectetur
+                                                                                                    adipiscing elit.
+                                                                                                    Nascetur vel quis
+                                                                                                    sed
+                                                                                                    diam fusce pulvinar
+                                                                                                    ultrices. Quis
+                                                                                                    elementum venenatis
+                                                                                                    sed ut eget nunc,
+                                                                                                    tincidunt purus,
+                                                                                                    neque. Massa
+                                                                                                    malesuada
+                                                                                                    in dui et. Neque,
+                                                                                                    urna est massa
+                                                                                                    purus.
+                                                                                                    Aliquet lobortis
+                                                                                                    hendrerit nisl, sed
+                                                                                                    in
+                                                                                                    imperdiet vulputate
+                                                                                                    enim in. Augue
+                                                                                                    ornare phasellus
+                                                                                                    viverra facilisi
+                                                                                                    curabitur aliquam
+                                                                                                    tempus tincidunt
+                                                                                                    cras.
+                                                                                                    In urna risus
+                                                                                                    scelerisque
+                                                                                                    elementum
+                                                                                                    lacus amet elit,
+                                                                                                    tortor eget.
+                                                                                                    Malesuada
+                                                                                                    commodo bibendum
+                                                                                                    amet volutpat. Enim
+                                                                                                    donec a, ut felis
+                                                                                                    cras lacus.
+                                                                                                    Condimentum nec
+                                                                                                    iaculis nullam
+                                                                                                    mattis.
+                                                                                                    Mauris sed viverra
+                                                                                                    vestibulum
+                                                                                                    pellentesque rhoncus
+                                                                                                    et. Massa etiam
+                                                                                                    mauris, tristique
+                                                                                                    leo laoreet sed
+                                                                                                    pulvinar dictum. Leo
+                                                                                                    at dictum
+                                                                                                    pellentesque lacus
+                                                                                                    quis eget porttitor
+                                                                                                    tincidunt.
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+
+                                                                                        <div
+                                                                                            class="comment-details d-flex mt-3 pr-3">
+                                                                                            <div class="profile-img">
+                                                                                                <img src="./assets/images/comments-img-profile.svg"
+                                                                                                    alt="">
+                                                                                            </div>
+                                                                                            <div
+                                                                                                class="profile-details mt-3 ml-2">
+                                                                                                <span
+                                                                                                    class="profile-details-name">Angelina
+                                                                                                    Maddy</span> <span
+                                                                                                    class="profile-details-date">21
+                                                                                                    January
+                                                                                                    2021</span>
+                                                                                                <div
+                                                                                                    class="profile-detail-body mt-4">
+                                                                                                    Lorem ipsum dolor
+                                                                                                    sit amet,
+                                                                                                    consectetur
+                                                                                                    adipiscing elit.
+                                                                                                    Nascetur vel quis
+                                                                                                    sed
+                                                                                                    diam fusce pulvinar
+                                                                                                    ultrices. Quis
+                                                                                                    elementum venenatis
+                                                                                                    sed ut eget nunc,
+                                                                                                    tincidunt purus,
+                                                                                                    neque. Massa
+                                                                                                    malesuada
+                                                                                                    in dui et. Neque,
+                                                                                                    urna est massa
+                                                                                                    purus.
+                                                                                                    Aliquet lobortis
+                                                                                                    hendrerit nisl, sed
+                                                                                                    in
+                                                                                                    imperdiet vulputate
+                                                                                                    enim in. Augue
+                                                                                                    ornare phasellus
+                                                                                                    viverra facilisi
+                                                                                                    curabitur aliquam
+                                                                                                    tempus tincidunt
+                                                                                                    cras.
+                                                                                                    In urna risus
+                                                                                                    scelerisque
+                                                                                                    elementum
+                                                                                                    lacus amet elit,
+                                                                                                    tortor eget.
+                                                                                                    Malesuada
+                                                                                                    commodo bibendum
+                                                                                                    amet volutpat. Enim
+                                                                                                    donec a, ut felis
+                                                                                                    cras lacus.
+                                                                                                    Condimentum nec
+                                                                                                    iaculis nullam
+                                                                                                    mattis.
+                                                                                                    Mauris sed viverra
+                                                                                                    vestibulum
+                                                                                                    pellentesque rhoncus
+                                                                                                    et. Massa etiam
+                                                                                                    mauris, tristique
+                                                                                                    leo laoreet sed
+                                                                                                    pulvinar dictum. Leo
+                                                                                                    at dictum
+                                                                                                    pellentesque lacus
+                                                                                                    quis eget porttitor
+                                                                                                    tincidunt.
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                    <div class="my-4">
+                                                                                        <textarea name="" id=""
+                                                                                            cols="30" rows="10"
+                                                                                            class="form-control attachments-box"
+                                                                                            placeholder="Write your comments....."></textarea>
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="footer text-center my-4">
+                                                                                        <a href=""
+                                                                                            class="submit">Upload</a>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <hr class="horitontal-line">
+                                                            </div>
+
+                                                            <div class="comment-details d-flex mt-3 pr-3">
+                                                                <div class="profile-img">
+                                                                    <img src="./assets/images/comments-img-profile.svg"
+                                                                        alt="">
+                                                                </div>
+                                                                <div class="profile-details mt-3 ml-2">
+                                                                    <span class="profile-details-name">Angelina
+                                                                        Maddy</span> <span
+                                                                        class="profile-details-date">21 January
+                                                                        2021</span>
+                                                                    <div class="profile-detail-body mt-4">
+                                                                        Lorem ipsum dolor sit amet, consectetur
+                                                                        adipiscing elit. Nascetur vel quis sed
+                                                                        diam fusce pulvinar ultrices. Quis
+                                                                        elementum venenatis sed ut eget nunc,
+                                                                        tincidunt purus, neque. Massa malesuada
+                                                                        in dui et. Neque, urna est massa purus.
+                                                                        Aliquet lobortis hendrerit nisl, sed in
+                                                                        imperdiet vulputate enim in. Augue
+                                                                        ornare phasellus viverra facilisi
+                                                                        curabitur aliquam tempus tincidunt cras.
+                                                                        In urna risus scelerisque elementum
+                                                                        lacus amet elit, tortor eget. Malesuada
+                                                                        commodo bibendum amet volutpat. Enim
+                                                                        donec a, ut felis cras lacus.
+                                                                        Condimentum nec iaculis nullam mattis.
+                                                                        Mauris sed viverra vestibulum
+                                                                        pellentesque rhoncus et. Massa etiam
+                                                                        mauris, tristique leo laoreet sed
+                                                                        pulvinar dictum. Leo at dictum
+                                                                        pellentesque lacus quis eget porttitor
+                                                                        tincidunt.
+                                                                    </div>
+                                                                    <div class="profile-detail-footer mt-3">
+                                                                        <ul class="list-unstyled list-inline">
+                                                                            <li class="list-inline-item">
+                                                                                <span>125 Likes</span>
+                                                                            </li>
+                                                                            <li class="list-inline-item mx-5">
+                                                                                <span class="text-black">50
+                                                                                    comments</span>
+                                                                            </li>
+                                                                        </ul>
+
+                                                                    </div>
+                                                                </div>
+                                                                <hr class="horitontal-line">
+                                                            </div>
+
+
+                                                        </div>
+                                                        <div class="my-4">
+                                                            <textarea name="" id="" cols="30" rows="10"
+                                                                class="form-control attachments-box"
+                                                                placeholder="Write your comments....."></textarea>
+                                                        </div>
+                                                        <div class="footer text-center my-4">
+                                                            <a href="" class="submit">Upload</a>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1040,13 +1164,9 @@
                     </div>
                 </div>
             </div>
-            <div class="tab-pane fade" id="licensing" role="tabpanel" aria-labelledby="licensing-tab">...</div>
-            <div class="tab-pane fade" id="features" role="tabpanel" aria-labelledby="features-tab">...</div>
         </div>
+
     </section>
-
-
-
 
 
 
@@ -1099,7 +1219,7 @@
 
                     </div>
                 </div>
-                <div class="col-md-3 ">
+                <div class="col-md-3 footer-free-trail">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="red-btn text-center ">
@@ -1161,6 +1281,14 @@
     <script src="./assets/js/popper.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <script src="./assets/js/main.js"></script>
+
+    <script>
+        $('#accordion .panel').on("click", function () {
+            $(this).find(".panel-heading").toggleClass("panel-heading-active");
+            $(this).siblings().find(".panel-heading").addClass("panel-heading-active");
+
+        });
+    </script>
 
 </body>
 
