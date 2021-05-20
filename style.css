@@ -152,13 +152,22 @@ a:hover {
   height: 50px;
   left: -8px;
 }
+
 .header-carousel .carousel-control-prev {
   left: -8px;
 }
-.header-carousel .carousel-control-next, .carousel-control-prev{
+
+.header-carousel .carousel-control-next,
+.carousel-control-prev {
   top: unset !important;
   width: unset !important;
 }
+
+.header-carousel .carousel-control-next {
+  left: 40% !important;
+  right: unset;
+}
+
 .header-carousel .carousel-item {
   height: 40vh;
 }
@@ -517,7 +526,7 @@ form.example::after {
   height: 2px;
   width: 50%;
   background: #AD1927;
-  top: 110%;
+  top: 100%;
   left: 0;
 }
 
@@ -538,7 +547,7 @@ form.example::after {
   height: 2px;
   width: 50%;
   background: #AD1927;
-  top: 110%;
+  top: 100%;
   left: 0;
 }
 
@@ -1638,7 +1647,7 @@ select option:hover {
   box-sizing: border-box;
   box-shadow: 2px 0px 11px rgba(0, 0, 0, 0.25);
   height: 75vh;
-  padding: 70px;
+  padding: 200px;
 }
 
 .contact-details-cont {
@@ -1650,13 +1659,13 @@ select option:hover {
 
 .contact-details input {
   border: none;
-  border-bottom: 1px solid rgba(173, 25, 39, 0.5) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5) !important;
   border-radius: 0;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  color: #AD1927 !important;
+  color: #000000 !important;
   outline: 0;
   box-shadow: none !important;
   padding: unset;
@@ -1668,7 +1677,7 @@ select option:hover {
   font-weight: 600;
   font-size: 15px;
   line-height: 18px;
-  color: #AD1927 !important;
+  color: #000000 !important;
 }
 
 .contact-details textarea {
@@ -1681,27 +1690,58 @@ select option:hover {
   font-weight: 600 !important;
   font-size: 15px;
   line-height: 18px;
-  color: #AD1927;
+  color: #000000;
 }
 
-.contact {
-  background: url(./assets/images/map.svg) no-repeat;
-  background-position: center;
+.address-card {
+  background: #F8F8F8;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
   position: relative;
-  height: 100vh;
-  margin-top: 200px;
-  background-size: cover;
+  
+  min-height: 150px;
 }
-
-.contact-form {
+.address-card img{
   position: absolute;
-  top: -35%;
+  bottom: 85%;
+  left: 50%;
+  transform: translate(-50%, 0%);
 }
-
-.loaction-one {
+.address-card-content{
   position: absolute;
-  top: 63%;
-  left: 12%;
+  padding: 30px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loaction-one{
+  position: relative;
+  margin-bottom: 120px;
+}
+.address-card-main{
+  position: absolute;
+  width: 100%;
+  top: 35%;
+}
+.address-card-content h3{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+color: #000000;
+}
+.address-card-content p{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+
+color: #000000;
 }
 
 
@@ -1963,6 +2003,10 @@ footer .social-media-icons {
   margin: 40px 0;
 }
 
+.footer-sub-footer {
+  margin-top: -150px;
+}
+
 /* social fixed start */
 
 .sticky-social {
@@ -2203,6 +2247,10 @@ footer .social-media-icons {
 
   footer .social-media-icons {
     margin: 10px 0;
+  }
+
+  .footer-sub-footer {
+    margin-top: 0px;
   }
 
   .footer-free-trail {
