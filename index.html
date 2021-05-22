@@ -21,155 +21,6 @@
 	<link
 		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
 		rel="stylesheet">
-	<style>
-		.shadow-effect {
-			background: #fff;
-			padding: 20px;
-			border-radius: 0px;
-			text-align: center;
-			border: 1px solid #ECECEC;
-			box-shadow: 0 19px 38px rgb(0 0 0 / 10%), 0 15px 12px rgb(0 0 0 / 2%);
-			display: flex;
-			width: 300px;
-			height: 100px;
-		}
-
-		#testimonials-list .shadow-effect p {
-			font-family: inherit;
-			font-size: 17px;
-			line-height: 1.5;
-			margin: 0 0 17px 0;
-			font-weight: 300;
-			text-align: left;
-
-		}
-
-		.testimonial-name {
-			margin: -17px auto 0;
-			display: table;
-			width: auto;
-			background: #3190E7;
-			padding: 9px 35px;
-			border-radius: 12px;
-			text-align: center;
-			color: #fff;
-			box-shadow: 0 9px 18px rgba(0, 0, 0, 0.12), 0 5px 7px rgba(0, 0, 0, 0.05);
-		}
-
-		#testimonials-list .item {
-			text-align: center;
-			padding: 50px;
-			margin-bottom: 80px;
-			-webkit-transform: scale3d(0.8, 0.8, 1);
-			transform: scale3d(0.8, 0.8, 1);
-			transition: all 0.3s ease-in-out;
-		}
-
-		#testimonials-list .owl-item.active.center .item {
-			-webkit-transform: scale3d(1.0, 1.0, 1);
-			transform: scale3d(1.0, 1.0, 1);
-		}
-
-		.owl-carousel .owl-item img {
-			-webkit-transform-style: preserve-3d;
-			transform-style: preserve-3d;
-			max-width: 70px;
-			border-radius: 11px;
-			margin: 0 auto 17px;
-			height: 65px;
-			display: flex;
-		}
-
-		#testimonials-list.owl-carousel .owl-dots .owl-dot.active span,
-		#testimonials-list.owl-carousel .owl-dots .owl-dot:hover span {
-			background: #ad1927;
-			-webkit-transform: translate3d(0px, -50%, 0px) scale(0.7);
-			transform: translate3d(0px, -50%, 0px) scale(0.7);
-		}
-
-		#testimonials-list.owl-carousel .owl-dots {
-			display: inline-block;
-			width: 100%;
-			text-align: center;
-		}
-
-		#testimonials-list.owl-carousel .owl-dots .owl-dot {
-			display: inline-block;
-		}
-
-		#testimonials-list.owl-carousel .owl-dots .owl-dot span {
-			background: #ad1927;
-			display: inline-block;
-			height: 20px;
-			margin: 0 2px 5px;
-			-webkit-transform: translate3d(0px, -50%, 0px) scale(0.3);
-			transform: translate3d(0px, -50%, 0px) scale(0.3);
-			-webkit-transform-origin: 50% 50% 0;
-			transform-origin: 50% 50% 0;
-			transition: all 250ms ease-out 0s;
-			width: 20px;
-		}
-
-		.item {
-			display: block;
-		}
-
-		body {
-			overflow-x: hidden;
-		}
-
-		.text-sec {
-			font-size: 13px;
-			color: #000;
-			text-align: left;
-			width: 100vh;
-			position: relative;
-			left: -80%;
-			padding-bottom: 20px;
-			visibility: hidden;
-			right: 0;
-			margin: 0 auto;
-			top: -66px;
-		}
-
-		.quote-sec {
-			margin: 0 !important;
-			width: 20px !important;
-			max-width: 30px !important;
-			position: relative;
-			top: 20px;
-		}
-
-		#testimonials-list .owl-item.active.center .item .shadow-effect {
-			background: rgba(0, 0, 0, 0.6);
-			color: #fff;
-			display: block;
-			position: relative;
-			top: -30px;
-
-		}
-
-		#testimonials-list .owl-item.active.center .item .shadow-effect img {
-			position: absolute;
-			top: -45px;
-			left: 27px;
-			right: 0;
-			margin: 0 auto;
-		}
-
-		#testimonials-list .owl-item.active.center .item .shadow-effect p {
-			text-align: center;
-			padding-top: 10px;
-		}
-
-		#testimonials-list .owl-item.active.center .text-sec {
-			visibility: visible;
-		}
-
-		.owl-carousel {
-			padding-top: 50px;
-		}
-	</style>
 
 </head>
 
@@ -178,20 +29,19 @@
 	<header>
 		<nav class="row navbar navbar-expand-lg ftco_navbar ftco-navbar-light fixed-top" id="ftco-navbar">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html"><img src="./assets/images/logo.svg" alt="" width="180px"></a>
+				<a class="navbar-brand" href="index.html"><img src="./assets/images/logo.svg" alt="" width="250px"></a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
 					aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="fa fa-bars"><img src="./assets/images/hand-bur.svg" alt=""></span>
 				</button>
 				<div class="collapse navbar-collapse" id="ftco-nav">
 					<ul class="navbar-nav ml-auto mr-md-3">
-						<li class="nav-item"><a href="./index.html" class="nav-link"><span
+						<li class="nav-item d-md-flex align-items-center"><a href="./index.html" class="nav-link"><span
 									class="active">Home</span></a></li>
-						<li class="nav-item "><a href="./product.html" class="nav-link"><span>Product</span></a></li>
-						<li class="nav-item "><a href="./services.html" class="nav-link"><span>Services</span></a></li>
-						<li class="nav-item dropdown nav-item d-md-flex align-items-center"><a href="#"
-								class="nav-link d-flex align-items-center justify-content-center icon-cart p-0"
-								id="dropdown04" aria-expanded="false"><span>Resources</span><img
+						<li class="nav-item d-md-flex align-items-center"><a href="./product.html" class="nav-link"><span>Product</span></a></li>
+						<li class="nav-item d-md-flex align-items-center"><a href="./services.html" class="nav-link"><span>Services</span></a></li>
+						<li class="nav-item dropdown d-md-flex align-items-center"><a href="#"
+								class="nav-link p-0" id="dropdown04" aria-expanded="false"><span>Resources</span><img
 									src="./assets/images/drop-down-icon.svg" alt=""></a>
 
 							<div class="dropdown-menu dropdown-menu-nav dropdown-menu-right"
@@ -205,7 +55,19 @@
 											src="./assets/images/blogs-icon.svg" alt="" class="mr-2">Blogs</span></a>
 							</div>
 						</li>
-						<li class="nav-item"><a href="#" class="nav-link contact-btn">Contact Us</a></li>
+						<li class="nav-item dropdown text-center d-md-flex align-items-center" style="padding: 0 55px !important;"><a href="#" class="nav-link p-0" id="dropdown04" aria-expanded="false"><span class="text-center">
+							<img src="./assets/images/sing-profile.svg" alt="">
+							<p class="mb-0 profile-name">My Profile</p>
+						</span> </a>
+						
+							<div class="dropdown-menu dropdown-menu-nav dropdown-menu-right"
+							aria-labelledby="dropdown04" style="background: url(./assets/images/shadow-box.svg);">
+							<a href="./faq.html" class="dropdown-item"><span><img src="./assets/images/login-icon.svg"
+										alt="" class="mr-2">Login</span></a>
+							<a href="./forums.html" class="dropdown-item"><span><img
+										src="./assets/images/sign-up.svg" alt="" class="mr-2">Sing up</span></a>
+						</div>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -214,10 +76,10 @@
 
 		<div class="header-background">
 			<div class="row header-background-content">
-				<div class="container">
-					<div class="col-md-12">
+				<div class="container-left">
+					<div class="col-md-12 pl-0">
 						<div class="row">
-							<div class="col-md-12 header-carousel">
+							<div class="col-md-12 header-carousel pl-0">
 								<h3>We accelerate business growth</h3>
 
 								<div id="carouseHeaderIndicators" class="carousel slide" data-ride="carousel">
@@ -234,11 +96,22 @@
 											<div class="row">
 												<div class="col-md-10 p-0">
 													<p>If your testing processes are covering your current needs, that’s
-														not good enough.
-														<!-- We can help you create innovative, adaptive processes built for evolving
-														technologies and
-														emerging challenges  -->
+														good-but not good enough. <br> We can help you create
+														innovative,
+														adaptive processes built for evolving technologies <br> and
+														emerging
+														challenges.
 													</p>
+												</div>
+											</div>
+										</div>
+										<div class="carousel-item">
+											<h2>Upto 30% reduction in <br> testing cost</h2>
+											<div class="row">
+												<div class="col-md-10 p-0">
+													<p>Continuous focus on simplification and optimization in test
+														lifecycle <br>activities reduces the overall testing effort and
+														time</p>
 												</div>
 											</div>
 										</div>
@@ -282,25 +155,27 @@
 
 
 						<div class="row pt-3">
-							<div class="col-md-3 my-2 mr-2">
-								<div class="white-btn text-center">
-									<span>Request a Demo</span>
+							<div class="col-7 pl-0 row">
+								<div class="col-md-4 my-2 mr-2 pl-0">
+									<div class="white-btn text-center">
+										<span>Request a Demo</span>
+									</div>
+								</div>
+								<div class="col-md-4 my-2 mr-2 pr-0">
+									<div class="red-btn text-center">
+										<span>Free Trial</span>
+									</div>
 								</div>
 							</div>
-							<div class="col-md-3 my-2 mr-2">
-								<div class="red-btn text-center">
-									<span>Free Trial</span>
-								</div>
 
-							</div>
 							<div class="col-md-4"></div>
 						</div>
 					</div>
 					<div class="col-md-3"></div>
 					<div class="tag-line-footer mt-5 py-3">
 						<div class="row">
-							<div class="col-10 row">
-								<div class="col-md-4 my-2">
+							<div class="col-8 row pl-0">
+								<div class="col-md-4 my-2 pl-0">
 									<div class="tag-line p-3">
 										<img src="./assets/images/agile.svg" alt="">
 										<h4 class="mt-2">AGILE</h4>
@@ -352,7 +227,7 @@
 	<section class="simplify-one">
 		<div class="container-left">
 			<div class="simplify-one-head">
-				<img src="./assets/images/heading-logo.svg" alt="">
+				<img src="./assets/images/simplify-image-head.svg" alt="">
 				<!-- <div class="simplify-img" style="position: absolute; width: 100%; top: 0; left: 0;" >
 						
 
@@ -382,7 +257,7 @@
 
 					</div>
 				</div>
-				<div class="col-md-5 mx-auto px-5">
+				<div class="col-md-5 mx-auto pl-3 pr-3">
 					<div class="simplify-one-img">
 						<div class="simplify-one-one">
 							<img src="./assets/images/img-1.svg" alt="" width="100%">
@@ -509,207 +384,462 @@
 							</div>
 						</div>	 -->
 				<div class="col-md-8 pl-0">
-					<div class="row">
-						<div class="col-md-6 pl-0">
-							<div class="pricing-card">
-								<div class="pricing-card-head d-flex justify-content-between">
-									<h4>Mainframe</h4>
-									<h3>$50 / Month</h3>
-								</div>
-								<div class="pricing-card-body">
-									<div class="pricing-card-body-cont">
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports both manual and automated execution.</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Autocreate Manual Testcase.</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>HTML pdf reports with time stamp.</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports sequential and manual execution.</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Creation of useable Functions</p>
-											</div>
-										</div>
-										<div class="sub-head">
-											<h5>API</h5>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Rest and API calls.</p>
-											</div>
-										</div>
-										<div class="sub-head">
-											<h5>DB</h5>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Oracle SQL,My SQL, Sybase,
-													Mongod DB, Posgre, SQL server</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Oracle SQL,My SQL, Sybase,
-													Mongod DB, Posgre, SQL server</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Oracle SQL,My SQL, Sybase,
-													Mongod DB, Posgre, SQL server</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="pricing-card-footer">
-									<div class="red-btn text-center m-auto " style="width: 60%;">
-										<span>Choose plan <img src="./assets/images/right-arrow.svg" alt=""
-												class="ml-2"> </span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 pr-0">
-							<div class="pricing-card">
-								<div class="pricing-card-head d-flex justify-content-between">
-									<h4>Mobile</h4>
-									<h3>$50 / Month</h3>
-								</div>
-								<div class="pricing-card-body">
-									<div class="pricing-card-body-cont">
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports both manual and automated execution.</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Autocreate Manual Testcase.</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>HTML pdf reports with time stamp.</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports sequential and manual execution.</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Creation of useable Functions</p>
-											</div>
-										</div>
-										<div class="sub-head">
-											<h5>API</h5>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Rest and API calls.</p>
-											</div>
-										</div>
-										<div class="sub-head">
-											<h5>DB</h5>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Oracle SQL,My SQL, Sybase,
-													Mongod DB, Posgre, SQL server</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Oracle SQL,My SQL, Sybase,
-													Mongod DB, Posgre, SQL server</p>
-											</div>
-										</div>
-										<div class="d-flex">
-											<div>
-												<img class="pr-1" src="./assets/images/pricing-tick.svg" alt="">
-											</div>
-											<div>
-												<p>Supports Oracle SQL,My SQL, Sybase,
-													Mongod DB, Posgre, SQL server</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="pricing-card-footer">
-									<div class="red-btn text-center m-auto " style="width: 60%;">
-										<span class="mr-3">Choose plan <img src="./assets/images/right-arrow.svg" alt=""
-												class="ml-2"> </span>
-									</div>
-								</div>
-							</div>
-						</div>
 
+					<div id="carousePrcingIndicators" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carousePrcingIndicators" data-slide-to="0" class="active"></li>
+							<li data-target="#carousePrcingIndicators" data-slide-to="1"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="row">
+									<div class="col-md-6 pl-0">
+										<div class="pricing-card">
+											<div class="pricing-card-head d-flex justify-content-between">
+												<h4>Mainframe</h4>
+												<h3>$50 / Month</h3>
+											</div>
+											<div class="pricing-card-body">
+												<div class="pricing-card-body-cont">
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports both manual and automated execution.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Autocreate Manual Testcase.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>HTML pdf reports with time stamp.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports sequential and manual execution.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Creation of useable Functions</p>
+														</div>
+													</div>
+													<div class="sub-head">
+														<h5>API</h5>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Rest and API calls.</p>
+														</div>
+													</div>
+													<div class="sub-head">
+														<h5>DB</h5>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="pricing-card-footer">
+												<div class="red-btn text-center m-auto " style="width: 60%;">
+													<span>Choose plan <img src="./assets/images/right-arrow.svg" alt=""
+															class="ml-2"> </span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 pr-0">
+										<div class="pricing-card">
+											<div class="pricing-card-head d-flex justify-content-between">
+												<h4>Mobile</h4>
+												<h3>$50 / Month</h3>
+											</div>
+											<div class="pricing-card-body">
+												<div class="pricing-card-body-cont">
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports both manual and automated execution.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Autocreate Manual Testcase.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>HTML pdf reports with time stamp.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports sequential and manual execution.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Creation of useable Functions</p>
+														</div>
+													</div>
+													<div class="sub-head">
+														<h5>API</h5>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Rest and API calls.</p>
+														</div>
+													</div>
+													<div class="sub-head">
+														<h5>DB</h5>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="pricing-card-footer">
+												<div class="red-btn text-center m-auto " style="width: 60%;">
+													<span class="mr-3">Choose plan <img
+															src="./assets/images/right-arrow.svg" alt="" class="ml-2">
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row">
+									<div class="col-md-6 pl-0">
+										<div class="pricing-card">
+											<div class="pricing-card-head d-flex justify-content-between">
+												<h4>Mainframe</h4>
+												<h3>$50 / Month</h3>
+											</div>
+											<div class="pricing-card-body">
+												<div class="pricing-card-body-cont">
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports both manual and automated execution.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Autocreate Manual Testcase.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>HTML pdf reports with time stamp.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports sequential and manual execution.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Creation of useable Functions</p>
+														</div>
+													</div>
+													<div class="sub-head">
+														<h5>API</h5>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Rest and API calls.</p>
+														</div>
+													</div>
+													<div class="sub-head">
+														<h5>DB</h5>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="pricing-card-footer">
+												<div class="red-btn text-center m-auto " style="width: 60%;">
+													<span>Choose plan <img src="./assets/images/right-arrow.svg" alt=""
+															class="ml-2"> </span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6 pr-0">
+										<div class="pricing-card">
+											<div class="pricing-card-head d-flex justify-content-between">
+												<h4>Mobile</h4>
+												<h3>$50 / Month</h3>
+											</div>
+											<div class="pricing-card-body">
+												<div class="pricing-card-body-cont">
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports both manual and automated execution.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Autocreate Manual Testcase.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>HTML pdf reports with time stamp.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports sequential and manual execution.</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Creation of useable Functions</p>
+														</div>
+													</div>
+													<div class="sub-head">
+														<h5>API</h5>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Rest and API calls.</p>
+														</div>
+													</div>
+													<div class="sub-head">
+														<h5>DB</h5>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+													<div class="d-flex">
+														<div>
+															<img class="pr-1" src="./assets/images/pricing-tick.svg"
+																alt="">
+														</div>
+														<div>
+															<p>Supports Oracle SQL,My SQL, Sybase,
+																Mongod DB, Posgre, SQL server</p>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="pricing-card-footer">
+												<div class="red-btn text-center m-auto " style="width: 60%;">
+													<span class="mr-3">Choose plan <img
+															src="./assets/images/right-arrow.svg" alt="" class="ml-2">
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
 					</div>
+
+
+
 				</div>
 				<div class="col-md-1"></div>
 				<div class="col-md-3 my-auto pricing-bottom ">
@@ -785,9 +915,10 @@
 							SimplifyQA breaks through the barriers of conventional software testing tools.
 						</p>
 						<div class="row pt-3 mt-4">
-							<div class="col-md-3 my-2 p-0">
+							<div class="col-md-4 my-2 p-0">
 								<div class="red-btn text-center m-auto ">
-									<span>More videos <img src="./assets/images/right-arrow.svg" alt=""> </span>
+									<span class="mr-3">Choose plan <img src="./assets/images/right-arrow.svg" alt=""
+											class="ml-2"> </span>
 								</div>
 							</div>
 						</div>
@@ -893,215 +1024,83 @@
 		</div>
 	</section>
 
-	<!-- <section class="testi mt-5">
-			<div class="">
-				<div class="features-heading container-left container-right">
-					<h5 class="heading-black-underline ">Testimonials</h5>
-				</div>
-				<div class="row mt-5">
-					<div class="col-md-12">
 
-						<div id="testimonial-slider" class="owl-carousel container">
-							<div class="testimonial">
-
-								<p class="description">
-									<img src="./assets/images/invert-open.svg" alt="" class="float-left mb-2"><br>
-									SimplifyQA has provided us with great agility and quality in terms of our day to day
-									automation testing and exponentially increasing our productivity thus enhancing our time
-									to market.
-									<br><img src="./assets/images/invert-close.svg" alt="" class="float-right">
-								</p>
-
-
-								<div class="testimonial-review">
-									<div class="pic">
-										<img src="./assets/images/testi-1.jpg" alt="">
-									</div>
-									<h4 class="testimonial-title">
-										williamson
-										<small>Web Developer</small>
-									</h4>
-								</div>
-							</div>
-
-							<div class="testimonial">
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec velit dui. Pellentesque
-									volutpat faucibus risus, ac accumsan purus.
-								</p>
-
-								<div class="testimonial-review">
-									<div class="pic">
-										<img src="images/img-2.jpg" alt="">
-									</div>
-									<h4 class="testimonial-title">
-										kristiana
-										<small>Web Desginer</small>
-									</h4>
-								</div>
-							</div>
-							<div class="testimonial">
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec velit dui. Pellentesque
-									volutpat faucibus risus, ac accumsan purus.
-								</p>
-
-								<div class="testimonial-review">
-									<div class="pic">
-										<img src="images/img-2.jpg" alt="">
-									</div>
-									<h4 class="testimonial-title">
-										kristiana
-										<small>Web Desginer</small>
-									</h4>
-								</div>
-							</div>
-							<div class="testimonial">
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec velit dui. Pellentesque
-									volutpat faucibus risus, ac accumsan purus.
-								</p>
-
-								<div class="testimonial-review">
-									<div class="pic">
-										<img src="images/img-2.jpg" alt="">
-									</div>
-									<h4 class="testimonial-title">
-										kristiana
-										<small>Web Desginer</small>
-									</h4>
-								</div>
-							</div>
-							<div class="testimonial">
-								<p class="description">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec velit dui. Pellentesque
-									volutpat faucibus risus, ac accumsan purus.
-								</p>
-
-								<div class="testimonial-review">
-									<div class="pic">
-										<img src="images/img-2.jpg" alt="">
-									</div>
-									<h4 class="testimonial-title">
-										kristiana
-										<small>Web Desginer</small>
-									</h4>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</section> -->
 
 
 	<section class="testimonials mt-5">
-		<div class="features-heading container-left container-right">
-			<h5 class="heading-black-underline ">Testimonials</h5>
-		</div>
-		<div class="wrapper">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12">
-						<div id="testimonials-list" class="owl-carousel">
-
-							<div class="item">
-								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
-									SimplifyQA has provided us with great agility and quality in terms of our day to day
-									automation testing and exponentially increasing our productivity thus enhancing our
-									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
-								right: 110px;
-								position: absolute;
-								top: 85px;"></p>
-								<div class="shadow-effect">
-									<img class="imgPlaceholder"
-										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-									<p><strong>shray</strong><br>CTO, Peopleworks</p>
-
-
+		<section class="testimonials mt-5">
+			<div class="features-heading container-left container-right">
+				<h5 class="heading-black-underline ">Testimonials</h5>
+			</div>
+		
+			<div class="container-left container-right">
+				<div class="testimonials-card">
+					<div id="carouselTestimonialIndicators" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+						  <li data-target="#carouselTestimonialIndicators" data-slide-to="0" class="active"></li>
+						  <li data-target="#carouselTestimonialIndicators" data-slide-to="1"></li>
+						</ol>
+						<div class="carousel-inner">
+						  <div class="carousel-item active">
+							<div class="row">
+								<div class="col-md-4 text-center m-auto">
+									<div class="testimonial-profile">
+										<h1>Arnab</h1>
+										<p>CEO, SmartKarrot Inc.</p>
+										<div class="testimonial-profile-img">
+											<img src="./assets/images/testimonial-arnab.svg" alt="">
+										</div>
+									</div>
 								</div>
-
-							</div>
-
-							<div class="item">
-								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
-									SimplifyQA has provided us with great agility and quality in terms of our day to day
-									automation testing and exponentially increasing our productivity thus enhancing our
-									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
-								right: 110px;
-								position: absolute;
-								top: 85px;"></p>
-								<div class="shadow-effect">
-									<img class="imgPlaceholder"
-										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-									<p><strong>nived</strong><br>CTO, Peopleworks</p>
-
-
+								<div class="col-md-1"></div>
+								<div class="col-md-7">
+									<div class="testimonial-profile-details">
+										<img src="./assets/images/inverted-coma.svg" alt="">
+										<p>SimplifyQA has provided us with great agility and quality in terms of our day to day
+											automation testing and exponentially increasing our productivity thus enhancing our time
+											to market.</p>
+										<div class="text-right">
+											<img src="./assets/images/inverted-coma-bottom.svg" alt="">
+				
+										</div>
+									</div>
 								</div>
-
 							</div>
-
-
-							<div class="item">
-								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
-									SimplifyQA has provided us with great agility and quality in terms of our day to day
-									automation testing and exponentially increasing our productivity thus enhancing our
-									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
-								right: 110px;
-								position: absolute;
-								top: 85px;"></p>
-								<div class="shadow-effect">
-									<img class="imgPlaceholder"
-										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-									<p><strong>Krishna</strong><br>CTO, Peopleworks</p>
-
-
+						  </div>
+						  <div class="carousel-item">
+							<div class="row">
+								<div class="col-md-4 text-center m-auto">
+									<div class="testimonial-profile">
+										<h1>Arnab</h1>
+										<p>CEO, SmartKarrot Inc.</p>
+										<div class="testimonial-profile-img">
+											<img src="./assets/images/testimonial-arnab.svg" alt="">
+										</div>
+									</div>
 								</div>
-
-							</div>
-
-							<div class="item">
-								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
-									SimplifyQA has provided us with great agility and quality in terms of our day to day
-									automation testing and exponentially increasing our productivity thus enhancing our
-									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
-								right: 110px;
-								position: absolute;
-								top: 85px;"></p>
-								<div class="shadow-effect">
-									<img class="imgPlaceholder"
-										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-									<p><strong>yasmin</strong><br>CTO, Peopleworks</p>
-
-
+								<div class="col-md-1"></div>
+								<div class="col-md-7">
+									<div class="testimonial-profile-details">
+										<img src="./assets/images/inverted-coma.svg" alt="">
+										<p>SimplifyQA has provided us with great agility and quality in terms of our day to day
+											automation testing and exponentially increasing our productivity thus enhancing our time
+											to market.</p>
+										<div class="text-right">
+											<img src="./assets/images/inverted-coma-bottom.svg" alt="">
+				
+										</div>
+									</div>
 								</div>
-
 							</div>
-
-							<div class="item">
-								<p class="text-sec"><img src="./assets/images/left-quote.svg" class="quote-sec">
-									SimplifyQA has provided us with great agility and quality in terms of our day to day
-									automation testing and exponentially increasing our productivity thus enhancing our
-									time to market. <img src="./assets/images/right-quote.svg" class="quote-sec" style="
-								right: 110px;
-								position: absolute;
-								top: 85px;"></p>
-								<div class="shadow-effect">
-									<img class="imgPlaceholder"
-										src="https://webdevtrick.com/wp-content/uploads/shaan.jpg" alt="">
-									<p><strong>murli</strong><br>CTO, Peopleworks</p>
-
-
-								</div>
-
-							</div>
-
+						  </div>
 						</div>
-					</div>
+					  </div>
+					
 				</div>
 			</div>
+		</section>
+		<div class="">
+			
 			<div class="contact">
 				<div class="contact-form">
 					<div class="row m-auto">
@@ -1153,8 +1152,8 @@
 								<h3>Simplify QA Sdn.Bhd.
 								</h3>
 								<p>
-									#466, Unit 6, Level 4, SetiaWalk  Mall (Block K) SetiaWalk, Persiaran
-									Wawasan Pusat Bandar Puchong  47160 Puchong, Selangor,
+									#466, Unit 6, Level 4, SetiaWalk Mall (Block K) SetiaWalk, Persiaran
+									Wawasan Pusat Bandar Puchong 47160 Puchong, Selangor,
 									Malaysia
 								</p>
 							</div>
@@ -1166,7 +1165,8 @@
 							<div class="address-card-content">
 								<h3>Simplify3X Software Pvt.Ltd.
 								</h3>
-								<p>#406, 2nd & 3rd Floor 1st Block, 7th Main Hennur Road, Banaswadi  Bengaluru, Karnataka 560043, India</p>
+								<p>#406, 2nd & 3rd Floor 1st Block, 7th Main Hennur Road, Banaswadi Bengaluru, Karnataka
+									560043, India</p>
 							</div>
 						</div>
 					</div>

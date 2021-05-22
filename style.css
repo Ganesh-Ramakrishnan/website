@@ -44,13 +44,12 @@ a:hover {
   background: #AD1927;
 }
 
-.navbar-nav li.nav-item a {
-  font-weight: bold !important;
+.navbar-nav li.nav-item a.nav-link {
+  font-weight: bold;
   font-family: Helvetica;
   font-style: normal;
-  font-weight: normal;
-  font-size: 13px;
-  line-height: 10px;
+  font-weight: bold;
+  font-size: 16px;
   color: #000000;
 }
 
@@ -77,6 +76,13 @@ a:hover {
   line-height: 17px;
   color: #FFFFFF !important;
 }
+.profile-name{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+color: #000000;
+}
 
 .contact-btn {
   margin: auto;
@@ -97,7 +103,7 @@ a:hover {
   /* top: 10%;
   position: relative; */
   padding-top: 10%;
-  margin-top: 4%;
+  margin-top: 3%;
   min-height: 100vh;
 }
 
@@ -108,7 +114,7 @@ a:hover {
   /* top: 10%;
   position: relative; */
   padding-top: 10%;
-  margin-top: 4%;
+  margin-top: 3%;
   min-height: 100vh;
 }
 
@@ -119,7 +125,7 @@ a:hover {
   /* top: 10%;
   position: relative; */
   padding-top: 10%;
-  margin-top: 4%;
+  margin-top: 3%;
   min-height: 100vh;
 }
 
@@ -130,7 +136,7 @@ a:hover {
   /* top: 10%;
   position: relative; */
   padding-top: 10%;
-  margin-top: 4%;
+  margin-top: 3%;
   min-height: 100vh;
 }
 
@@ -169,7 +175,7 @@ a:hover {
 }
 
 .header-carousel .carousel-item {
-  height: 40vh;
+  height: 45vh;
 }
 
 .header-carousel .carousel-control-prev-icon {
@@ -309,7 +315,7 @@ a:hover {
 }
 
 .simplify-one-img {
-  border: 8px solid #B0ABAC;
+  border: 10px solid #B0ABAC;
 }
 
 .simplify-one-one {
@@ -513,7 +519,7 @@ form.example::after {
   font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 34px;
   color: #000000;
   position: relative;
@@ -534,7 +540,7 @@ form.example::after {
   font-family: Helvetica;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 35px;
   line-height: 34px;
   color: #ffffff;
   position: relative;
@@ -656,6 +662,10 @@ form.example::after {
   background-size: cover;
   background-position: center;
   padding: 50px 0;
+}
+
+.pricing .carousel-indicators {
+  bottom: -10%;
 }
 
 .pricing-card {
@@ -1542,83 +1552,48 @@ select option:hover {
   text-align: center;
 }
 
-.description {
+.testimonials-card{
+  background-image: url(./assets/images/testimonial-left.svg), url(./assets/images/testimonial-right.svg);
+  background-position: left, right;
+  background-repeat: no-repeat;
+  margin: 30px 50px 50px 50px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 25%);
+  padding: 40px 70px;
+
+}
+.testimonial-profile h1{
   font-family: Helvetica;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  color: #000000;
-  position: relative;
-  padding: 20px 250px;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #000000;
+margin-bottom: 5px !important;
+}
+.testimonial-profile p{
+  font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #000000;
+margin-bottom: 20px;
 }
 
-/* .description:before{
-  content: "\f10d";
-  font-family: "Font Awesome 5 Free"; font-weight: 900;
-  display: inline-block;
-  position: absolute;
-  top: 8px;
-  left: 2%;
-  color:#3498db;
-  font-size: 36px;
-} */
-/* .description:after{
-  content: "\f10e";
-  font-family: "Font Awesome 5 Free"; font-weight: 900;
-  display: inline-block;
-  position: absolute;
-  top: 8px;
-  right: 2%;
-  color:#3498db;
-  font-size: 36px;
-} */
-.pic {
-  width: 94px;
-  height: 94px;
-  margin: 0 auto;
+.testimonial-profile-details p{
+  font-family: Helvetica;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+margin: 20px 0 !important;
+color: #000000;
 }
 
-.pic img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-}
 
-.testimonial-title {
-  font-size: 18px;
-  color: #333;
-  font-weight: bolder;
-  text-transform: capitalize;
-}
-
-.testimonial-title>small {
-  display: block;
-  color: #656565;
-  font-size: 15px;
-  text-transform: uppercase;
-  margin-top: 5px;
-}
-
-.owl-theme .owl-controls .owl-page.active span,
-.owl-theme .owl-controls.clickable .owl-page:hover span {
-  background: #3498db;
-}
-
-.owl-theme .owl-controls .owl-page span {
-  opacity: 1;
-}
-
-@media screen and (max-width: 480px) {
-  .description {
-    font-size: 19px;
-    line-height: 29px;
-  }
-
-  .description:before,
-  .description:after {
-    font-size: 25px;
-  }
-}
 
 
 
@@ -1627,7 +1602,7 @@ select option:hover {
   background: url("./assets/images/contact-us.svg") no-repeat;
   background-origin: border-box !important;
   background-position: center;
-  box-shadow: -2px 0px 11px rgba(0, 0, 0, 0.25);
+  box-shadow: -2px 0px 11px rgba(0, 0, 0, 25%);
   height: 75vh;
   background-size: cover;
 
@@ -1647,7 +1622,7 @@ select option:hover {
   box-sizing: border-box;
   box-shadow: 2px 0px 11px rgba(0, 0, 0, 0.25);
   height: 75vh;
-  padding: 200px;
+  padding: 0 200px;
 }
 
 .contact-details-cont {
@@ -1668,7 +1643,7 @@ select option:hover {
   color: #000000 !important;
   outline: 0;
   box-shadow: none !important;
-  padding: unset;
+  padding: 0 0 5px 0;
   height: unset !important;
   margin: 30px 0;
 }
@@ -1698,16 +1673,18 @@ select option:hover {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
   position: relative;
-  
+
   min-height: 150px;
 }
-.address-card img{
+
+.address-card img {
   position: absolute;
   bottom: 85%;
   left: 50%;
   transform: translate(-50%, 0%);
 }
-.address-card-content{
+
+.address-card-content {
   position: absolute;
   padding: 30px;
   width: 100%;
@@ -1715,33 +1692,37 @@ select option:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.loaction-one{
+
+.loaction-one {
   position: relative;
   margin-bottom: 120px;
 }
-.address-card-main{
+
+.address-card-main {
   position: absolute;
   width: 100%;
   top: 35%;
 }
-.address-card-content h3{
-  font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-line-height: 14px;
-text-align: center;
-color: #000000;
-}
-.address-card-content p{
-  font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 14px;
-text-align: center;
 
-color: #000000;
+.address-card-content h3 {
+  font-family: 'Helvetica' !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #000000;
+}
+
+.address-card-content p {
+  font-family: 'Helvetica' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+
+  color: #000000;
 }
 
 
@@ -2027,9 +2008,23 @@ footer .social-media-icons {
 
 
 
+@media (min-width: 1400px) {
+
+  .features-card .features-card-second {
+    padding: 70px 50px;
+  }
+
+  .contact-details {
+    padding: 0 270px !important;
+  }
+
+  .play-btn {
+    top: 53%;
+    left: 21%;
+  }
 
 
-
+}
 
 
 @media (max-width: 769px) {
