@@ -175,7 +175,7 @@ color: #000000;
 }
 
 .header-carousel .carousel-item {
-  height: 45vh;
+  height: 50vh;
 }
 
 .header-carousel .carousel-control-prev-icon {
@@ -901,6 +901,7 @@ form.example::after {
   background: #FFFFFF;
   box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.25);
   padding: 50px 40px;
+  min-height: 430px;
 }
 
 .product-section-card h3 {
@@ -1029,6 +1030,7 @@ form.example::after {
   font-weight: bold;
   font-size: 20px;
   color: #000000 !important;
+  text-transform: uppercase !important;
 }
 
 .faq-section .nav-link {
@@ -2021,6 +2023,67 @@ footer .social-media-icons {
   .play-btn {
     top: 53%;
     left: 21%;
+  }
+  .product-section-left {
+    background: url('./assets/images/product-bg-1.svg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    margin: 50px 0;
+    height: 110vh;
+  }
+  .product-section-left {
+    background: url('./assets/images/product-bg-1.svg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    margin: 50px 0;
+    height: 110vh;
+  }
+  
+  .product-section-left-two {
+    background: url('./assets/images/product-3.svg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    margin: 50px 0;
+    height: 110vh;
+  }
+  
+  .product-section-left-three {
+    background: url('./assets/images/product-5.svg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    margin: 50px 0;
+    height: 110vh;
+  }
+  
+  .product-section-right-one {
+    background: url('./assets/images/product-2.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 40%;
+    margin: 50px 0;
+    height: 110vh;
+  }
+  
+  .product-section-right-two {
+    background: url('./assets/images/product-4.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 40%;
+    margin: 50px 0;
+    height: 110vh;
+  }
+  
+  .product-section-right-three {
+    background: url('./assets/images/product-6.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 40%;
+    margin: 50px 0;
+    height: 110vh;
+  }
+  
+  .product-section-card {
+    min-height: 430px !important;
   }
 
 
